@@ -2,5 +2,5 @@
     "name": "lsp/lsp_profile",
     "description": "Profile setup for Life Science Platform for Drupal 8 site project with composer.",
     "license": "GPL-2.0-or-later",
-    "type": "profile",
+    "type": "profile"
 }
