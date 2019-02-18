@@ -1,6 +1,6 @@
-name: LSP Starter profile
+name: LSP profile
 type: profile
-description: 'Life Sciences Platform Starter Profile'
+description: 'Life Sciences Platform Profile'
 core: 8.x
 
 # Optional: Declare your installation profile as a distribution
@@ -8,7 +8,7 @@ core: 8.x
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 distribution:
-  name: Life Sciences Platform Starter Profile
+  name: Life Sciences Platform Profile
   
 
 # Modules to install to support the profile.
