@@ -2,5 +2,30 @@
     "name": "lsp/lsp_profile",
     "description": "Profile setup for Life Science Platform for Drupal 8 site project with composer.",
     "license": "GPL-2.0-or-later",
-    "type": "drupal-profile"
+    "type": "drupal-profile",
+    "require": {
+        "drupal/better_normalizers": "1.0.0-beta3",
+        "drupal/captcha": "1.0.0-beta1",
+        "drupal/config_readonly": "1.0.0-beta3",
+        "drupal/config_split": "1.1.0",
+        "drupal/config_ignore": "2.0.0",
+        "drupal/custom_search": "1.0.0-beta6",
+        "drupal/default_content": "1.0.0-alpha7",
+        "drupal/default_content_extra": "1.0.0-beta5",
+        "drupal/devel": "1.2.0",
+        "drupal/features": "3.5.0",
+        "drupal/field_group": "1.0.0-rc6",
+        "drupal/mailsystem": "4.1.0",
+        "drupal/metatag": "1.8.0",
+        "drupal/module_blacklist": "1.0.0-alpha2",
+        "drupal/pathauto": "1.1.0",
+        "drupal/readonlymode": "1.0.0-rc1",
+        "drupal/redirect": "1.0.0-beta1",
+        "drupal/recaptcha": "2.3.0",
+        "drupal/robotstxt": "1.1.0",
+        "drupal/swiftmailer": "1.0.0-beta2",
+        "drupal/search_api": "1.11.0",
+        "drupal/search_api_solr": "1.2.0",
+        "drupal/token": "1.0.0"
+    }   
 }
