@@ -2,15 +2,12 @@ name: LSP profile
 type: profile
 description: 'Life Sciences Platform Profile'
 core: 8.x
-
 # Optional: Declare your installation profile as a distribution
 # This will make the installer auto-select this installation profile.
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 distribution:
   name: Life Sciences Platform Profile
-  
-
 # Modules to install to support the profile.
 install:
   - history
@@ -40,7 +37,6 @@ install:
   - ckeditor
   - better_normalizers
   - default_content_extra
-
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
@@ -81,12 +77,9 @@ dependencies:
   - session_limit
   - shield
   - username_enumeration_prevention
-
-
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
 themes:
   - bartik
   - seven
-
 config_install: true
