@@ -1,0 +1,134 @@
+uuid: 1b7a08af-07e0-4e7e-aa8c-f0df335068ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.information_blocks.field_action_link
+    - field.field.node.information_blocks.field_description
+    - field.field.node.information_blocks.field_image
+    - field.field.node.information_blocks.field_member_name
+    - field.field.node.information_blocks.field_notice
+    - field.field.node.information_blocks.field_overlay
+    - field.field.node.information_blocks.field_primary_title
+    - field.field.node.information_blocks.field_secondary_title
+    - node.type.information_blocks
+  module:
+    - ds
+    - image
+    - link
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col_stacked
+      library: ds/ds_2col_stacked
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          header: div
+          left: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          header: {  }
+          left:
+            info_block_left: info_block_left
+          right:
+            info_block_right: info_block_right
+          footer: {  }
+    regions:
+      header:
+        - links
+      left:
+        - field_member_name
+        - field_primary_title
+        - field_secondary_title
+        - field_notice
+        - field_description
+        - field_action_link
+      right:
+        - field_image
+        - field_overlay
+id: node.information_blocks.full
+targetEntityType: node
+bundle: information_blocks
+mode: full
+content:
+  field_action_link:
+    weight: 6
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: left
+  field_description:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: left
+  field_image:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: right
+  field_member_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: left
+  field_notice:
+    type: text_default
+    weight: 4
+    region: left
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_overlay:
+    type: text_default
+    weight: 8
+    region: right
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_primary_title:
+    type: text_default
+    weight: 2
+    region: left
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_secondary_title:
+    type: text_default
+    weight: 3
+    region: left
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: header
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

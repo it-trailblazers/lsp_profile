@@ -1,0 +1,22 @@
+uuid: 10c8e93a-0e54-4079-b11e-893893a70377
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.products_cta
+  module:
+    - text
+id: node.products_cta.body
+field_name: body
+entity_type: node
+bundle: products_cta
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

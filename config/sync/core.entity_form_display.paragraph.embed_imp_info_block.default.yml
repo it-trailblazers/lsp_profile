@@ -1,0 +1,25 @@
+uuid: 5fc459fb-aa32-425f-93df-e473dd6afaaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_imp_info_block.field_node_reference
+    - paragraphs.paragraphs_type.embed_imp_info_block
+id: paragraph.embed_imp_info_block.default
+targetEntityType: paragraph
+bundle: embed_imp_info_block
+mode: default
+content:
+  field_node_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

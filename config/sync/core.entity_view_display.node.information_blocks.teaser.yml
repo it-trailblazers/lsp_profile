@@ -1,0 +1,20 @@
+uuid: 7ae2c8fd-be3b-461c-9246-3d266dd0d7eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.information_blocks
+  module:
+    - user
+id: node.information_blocks.teaser
+targetEntityType: node
+bundle: information_blocks
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

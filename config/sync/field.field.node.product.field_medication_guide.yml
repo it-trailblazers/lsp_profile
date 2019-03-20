@@ -1,0 +1,27 @@
+uuid: 3350599b-2baa-4946-9f3f-c4a099c9e34a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medication_guide
+    - node.type.product
+  module:
+    - file
+id: node.product.field_medication_guide
+field_name: field_medication_guide
+entity_type: node
+bundle: product
+label: 'Medication Guide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: product_medication_guide
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

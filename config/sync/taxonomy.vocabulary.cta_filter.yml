@@ -1,0 +1,9 @@
+uuid: 7f5e7aff-260b-44e2-89bb-0ef64bc3482c
+langcode: en
+status: true
+dependencies: {  }
+name: 'CTA Filter'
+vid: cta_filter
+description: 'Filter CTA blocks display'
+hierarchy: 0
+weight: 0

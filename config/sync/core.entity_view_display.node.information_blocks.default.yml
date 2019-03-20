@@ -1,0 +1,94 @@
+uuid: aab47c44-0d18-41d4-bb2e-07111abd2504
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_blocks.field_action_link
+    - field.field.node.information_blocks.field_description
+    - field.field.node.information_blocks.field_image
+    - field.field.node.information_blocks.field_member_name
+    - field.field.node.information_blocks.field_notice
+    - field.field.node.information_blocks.field_overlay
+    - field.field.node.information_blocks.field_primary_title
+    - field.field.node.information_blocks.field_secondary_title
+    - node.type.information_blocks
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.information_blocks.default
+targetEntityType: node
+bundle: information_blocks
+mode: default
+content:
+  field_action_link:
+    weight: 6
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_member_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_notice:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_overlay:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_primary_title:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_secondary_title:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

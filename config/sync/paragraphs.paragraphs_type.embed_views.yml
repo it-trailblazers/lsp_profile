@@ -1,0 +1,9 @@
+uuid: 0a1ab81d-3c4e-432e-9c1b-6188e31c452c
+langcode: en
+status: true
+dependencies: {  }
+id: embed_views
+label: 'Embed Views'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

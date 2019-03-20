@@ -1,0 +1,202 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/information_blocks"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/doctor.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "33656757-fbd2-4f6d-b64c-06254be939a2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 32
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "information_blocks"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-19T06:08:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/doctor.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2a6b0da7-8a13-4ecf-9559-cba6bcee49a8"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Doctor",
+                "title": "",
+                "width": "511",
+                "height": "492"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Our Team",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-14T12:27:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-19T06:08:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_action_link": [
+        {
+            "uri": "https:\/\/www.google.com",
+            "title": "FIND OUT MORE",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Do eiusmod tempor incididunt ut labore et dolore magna aliqua sed ipsum uat enim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Do eiusmod tempor incididunt ut labore et dolore magna aliqua sed ipsum uat enim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip.<\/p>\n"
+        }
+    ],
+    "field_member_name": [
+        {
+            "value": "Dr. Sandra Wosniack"
+        }
+    ],
+    "field_notice": [
+        {
+            "value": "<p dir=\"ltr\"><strong>Do eiusmod tempor incididunt ut labore et dolore&nbsp;<br \/>\r\nmagna aliqua sed ipsum uat enim veniam<\/strong><\/p>\r\n<p class=\"border1\">&nbsp;<\/p>",
+            "format": "full_html",
+            "processed": "<p dir=\"ltr\"><strong>Do eiusmod tempor incididunt ut labore et dolore\u00a0<br \/>\nmagna aliqua sed ipsum uat enim veniam<\/strong><\/p>\n<p class=\"border1\">\u00a0<\/p>"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Our <span class=\"blue\"><strong>Team<\/strong><\/span>",
+            "format": "full_html",
+            "processed": "Our <span class=\"blue\"><strong>Team<\/strong><\/span>"
+        }
+    ]
+}

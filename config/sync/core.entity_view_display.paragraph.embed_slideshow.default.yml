@@ -1,0 +1,24 @@
+uuid: 26c63fcb-3177-4131-8835-514e44034b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_slideshow.field_slideshow_reference
+    - paragraphs.paragraphs_type.embed_slideshow
+  module:
+    - viewsreference
+id: paragraph.embed_slideshow.default
+targetEntityType: paragraph
+bundle: embed_slideshow
+mode: default
+content:
+  field_slideshow_reference:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

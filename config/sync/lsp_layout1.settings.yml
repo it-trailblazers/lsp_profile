@@ -1,0 +1,32 @@
+schemas:
+  bootstrap: 8000
+  lsp_layout1: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: themes/custom/lsp_layout1/favicon.ico
+  url: 'http://lspnew.bn/themes/custom/lsp_layout1/favicon.ico'
+  use_default: false
+logo:
+  path: sites/default/files/logo.png
+  url: ''
+  use_default: false
+table_responsive: '-1'
+table: ''
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+  footer_left: ''
+  footer_right: ''
+  footer_center: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true

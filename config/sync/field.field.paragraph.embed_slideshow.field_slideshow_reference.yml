@@ -1,0 +1,49 @@
+uuid: 59fded52-68d2-4a73-be1f-e246570e0c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slideshow_reference
+    - paragraphs.paragraphs_type.embed_slideshow
+  module:
+    - viewsreference
+id: paragraph.embed_slideshow.field_slideshow_reference
+field_name: field_slideshow_reference
+entity_type: paragraph
+bundle: embed_slideshow
+label: 'Slideshow reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    attachment: 0
+  preselect_views:
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    cta_section_1: 0
+    cta_section_2: 0
+    files: 0
+    frontpage: 0
+    products_cta: 0
+    products_list: 0
+    slideshow: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

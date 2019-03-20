@@ -1,0 +1,23 @@
+uuid: 43eb1e1a-b022-4b03-9dd4-67ecc08b3d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_action_link
+    - node.type.information_blocks
+  module:
+    - link
+id: node.information_blocks.field_action_link
+field_name: field_action_link
+entity_type: node
+bundle: information_blocks
+label: 'Action Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

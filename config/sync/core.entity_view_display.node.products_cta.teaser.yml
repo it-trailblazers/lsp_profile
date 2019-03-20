@@ -1,0 +1,30 @@
+uuid: 89229aa4-c297-4f72-9348-646d1a17b13c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.products_cta.body
+    - node.type.products_cta
+  module:
+    - text
+    - user
+id: node.products_cta.teaser
+targetEntityType: node
+bundle: products_cta
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

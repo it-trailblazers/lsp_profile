@@ -1,0 +1,27 @@
+uuid: 4ea8127e-ae52-4ff1-bbbf-1836c100c57c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_pharmacy_services.field_view_reference
+    - paragraphs.paragraphs_type.embed_pharmacy_services
+  module:
+    - viewsreference
+id: paragraph.embed_pharmacy_services.default
+targetEntityType: paragraph
+bundle: embed_pharmacy_services
+mode: default
+content:
+  field_view_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

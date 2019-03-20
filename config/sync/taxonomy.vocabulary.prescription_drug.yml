@@ -1,0 +1,9 @@
+uuid: 704f6246-16cc-49fc-b998-3999dd0a1055
+langcode: en
+status: true
+dependencies: {  }
+name: 'Prescription Drug'
+vid: prescription_drug
+description: 'Select the type of medication which is required.'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,25 @@
+uuid: 9a462fc2-ae97-4b30-bc8f-1e374ff7433e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:1f42e504-1a18-4bee-a0c2-3521401a3573'
+  module:
+    - block_content
+  theme:
+    - lsp_layout1
+id: footerdesc
+theme: lsp_layout1
+region: footer_left
+weight: 0
+provider: null
+plugin: 'block_content:1f42e504-1a18-4bee-a0c2-3521401a3573'
+settings:
+  id: 'block_content:1f42e504-1a18-4bee-a0c2-3521401a3573'
+  label: 'Footer Desc'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

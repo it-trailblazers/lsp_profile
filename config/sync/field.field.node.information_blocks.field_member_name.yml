@@ -1,0 +1,19 @@
+uuid: b2c261fe-952f-44e0-8399-d24997d1e66a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_name
+    - node.type.information_blocks
+id: node.information_blocks.field_member_name
+field_name: field_member_name
+entity_type: node
+bundle: information_blocks
+label: 'Member Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

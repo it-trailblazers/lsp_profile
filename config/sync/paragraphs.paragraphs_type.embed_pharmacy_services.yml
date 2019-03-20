@@ -1,0 +1,9 @@
+uuid: e917252a-bf76-417b-a285-09e1751554d7
+langcode: en
+status: true
+dependencies: {  }
+id: embed_pharmacy_services
+label: 'Embed Pharmacy Services'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

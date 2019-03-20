@@ -1,0 +1,29 @@
+uuid: d4b797f0-2508-4d1a-8792-0318b49f5001
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cta_filter
+    - node.type.cta_blocks
+    - taxonomy.vocabulary.cta_filter
+id: node.cta_blocks.field_cta_filter
+field_name: field_cta_filter
+entity_type: node
+bundle: cta_blocks
+label: 'CTA Filter'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cta_filter: cta_filter
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

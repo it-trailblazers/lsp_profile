@@ -1,0 +1,24 @@
+uuid: 4ba1372c-dc87-43d7-a3fc-1f1ddb80c0c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.quick-links
+  module:
+    - system
+  theme:
+    - lsp_layout1
+id: quicklinks
+theme: lsp_layout1
+region: footer_center
+weight: 0
+provider: null
+plugin: 'system_menu_block:quick-links'
+settings:
+  id: 'system_menu_block:quick-links'
+  label: 'Quick Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 5c968a1f-2f71-4b80-acff-19291dc9984e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_notice
+    - node.type.information_blocks
+  module:
+    - text
+id: node.information_blocks.field_notice
+field_name: field_notice
+entity_type: node
+bundle: information_blocks
+label: Notice
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

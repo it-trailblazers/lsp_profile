@@ -1,0 +1,22 @@
+uuid: 3852a0bb-8976-4648-bc5e-9d0cded7a3eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: product_url_alias_pattern
+label: 'Product URL Alias pattern'
+type: 'canonical_entities:node'
+pattern: 'product/[current-date:html_year]/[current-page:title]'
+selection_criteria:
+  c79c7770-f38d-4a6f-9243-13067fedd003:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c79c7770-f38d-4a6f-9243-13067fedd003
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,14 @@
+uuid: 14986d9e-aac4-4449-9598-428df53593fa
+name: 'LSP Platform'
+mail: pradeep@ittblazers.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

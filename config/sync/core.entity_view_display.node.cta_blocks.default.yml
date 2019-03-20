@@ -1,0 +1,48 @@
+uuid: dc156da5-eb89-46a6-9cce-e11a4069933d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cta_blocks.field_cta_description
+    - field.field.node.cta_blocks.field_cta_filter
+    - field.field.node.cta_blocks.field_image
+    - node.type.cta_blocks
+  module:
+    - image
+    - text
+    - user
+id: node.cta_blocks.default
+targetEntityType: node
+bundle: cta_blocks
+mode: default
+content:
+  field_cta_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cta_filter:
+    weight: 3
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

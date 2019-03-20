@@ -1,0 +1,17 @@
+uuid: a283f7ce-8196-43ce-937f-2a0e05fe2937
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Products CTA'
+type: products_cta
+description: 'Creates Products CTA '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

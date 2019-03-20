@@ -1,0 +1,21 @@
+uuid: f9e13ede-8f03-4f95-b83d-7594f38cd2bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_secondary_title
+    - node.type.information_blocks
+  module:
+    - text
+id: node.information_blocks.field_secondary_title
+field_name: field_secondary_title
+entity_type: node
+bundle: information_blocks
+label: 'Secondary Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

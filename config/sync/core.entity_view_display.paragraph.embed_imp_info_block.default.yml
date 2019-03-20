@@ -1,0 +1,22 @@
+uuid: 42de0dc4-1169-4d14-ac7d-1b7df9b53584
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_imp_info_block.field_node_reference
+    - paragraphs.paragraphs_type.embed_imp_info_block
+id: paragraph.embed_imp_info_block.default
+targetEntityType: paragraph
+bundle: embed_imp_info_block
+mode: default
+content:
+  field_node_reference:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

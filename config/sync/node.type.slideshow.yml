@@ -1,0 +1,17 @@
+uuid: c5f8123d-b437-48b8-8d38-f3b4676c1548
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Slideshow
+type: slideshow
+description: 'Home page slideshow'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

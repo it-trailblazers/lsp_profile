@@ -1,0 +1,27 @@
+uuid: ec12e38b-f20f-4ca4-a8d0-3c1ca31fe897
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_slideshow.field_slideshow_reference
+    - paragraphs.paragraphs_type.embed_slideshow
+  module:
+    - viewsreference
+id: paragraph.embed_slideshow.default
+targetEntityType: paragraph
+bundle: embed_slideshow
+mode: default
+content:
+  field_slideshow_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

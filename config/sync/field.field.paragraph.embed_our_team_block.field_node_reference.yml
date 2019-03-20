@@ -1,0 +1,28 @@
+uuid: 75b75a7b-5fad-492a-a9ce-38e800383d58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_node_reference
+    - node.type.information_blocks
+    - paragraphs.paragraphs_type.embed_our_team_block
+id: paragraph.embed_our_team_block.field_node_reference
+field_name: field_node_reference
+entity_type: paragraph
+bundle: embed_our_team_block
+label: 'Node reference'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      information_blocks: information_blocks
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

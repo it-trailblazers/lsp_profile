@@ -1,0 +1,8 @@
+uuid: 7b50d169-d1d1-4084-ba4c-1b64e2f15935
+langcode: en
+status: true
+dependencies: {  }
+id: footer_note
+label: 'Footer Note'
+revision: 1
+description: 'Helps to add footer note in the footer section. '

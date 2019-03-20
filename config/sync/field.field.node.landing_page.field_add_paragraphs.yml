@@ -1,0 +1,61 @@
+uuid: 78a3eaeb-ba41-4b15-90a0-cce190174b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_paragraphs
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.embed_imp_info_block
+    - paragraphs.paragraphs_type.embed_nodes
+    - paragraphs.paragraphs_type.embed_our_products
+    - paragraphs.paragraphs_type.embed_our_team_block
+    - paragraphs.paragraphs_type.embed_pharmacy_services
+    - paragraphs.paragraphs_type.embed_slideshow
+    - paragraphs.paragraphs_type.embed_views
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_add_paragraphs
+field_name: field_add_paragraphs
+entity_type: node
+bundle: landing_page
+label: 'Add Paragraphs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      embed_views: embed_views
+      embed_nodes: embed_nodes
+      embed_slideshow: embed_slideshow
+      embed_imp_info_block: embed_imp_info_block
+      embed_our_team_block: embed_our_team_block
+      embed_our_products: embed_our_products
+      embed_pharmacy_services: embed_pharmacy_services
+    target_bundles_drag_drop:
+      embed_views:
+        enabled: true
+        weight: 2
+      embed_nodes:
+        enabled: true
+        weight: 3
+      embed_slideshow:
+        enabled: true
+        weight: 5
+      embed_imp_info_block:
+        enabled: true
+        weight: 6
+      embed_our_team_block:
+        enabled: true
+        weight: 8
+      embed_our_products:
+        enabled: true
+        weight: 10
+      embed_pharmacy_services:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

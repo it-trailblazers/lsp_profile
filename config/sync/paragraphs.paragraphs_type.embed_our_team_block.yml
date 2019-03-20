@@ -1,0 +1,9 @@
+uuid: a8ff0a01-41e2-430a-abc3-4e03eb6eb60e
+langcode: en
+status: true
+dependencies: {  }
+id: embed_our_team_block
+label: 'Embed Our Team Block'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

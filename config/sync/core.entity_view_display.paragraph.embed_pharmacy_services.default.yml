@@ -1,0 +1,24 @@
+uuid: f3a94568-6297-442f-a76c-00c3e7d9e1b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_pharmacy_services.field_view_reference
+    - paragraphs.paragraphs_type.embed_pharmacy_services
+  module:
+    - viewsreference
+id: paragraph.embed_pharmacy_services.default
+targetEntityType: paragraph
+bundle: embed_pharmacy_services
+mode: default
+content:
+  field_view_reference:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

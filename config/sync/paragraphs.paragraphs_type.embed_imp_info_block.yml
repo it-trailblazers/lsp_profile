@@ -1,0 +1,9 @@
+uuid: b463fdc2-711b-49ff-b3fe-b0197a68b07a
+langcode: en
+status: true
+dependencies: {  }
+id: embed_imp_info_block
+label: 'Embed Imp Info Block'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

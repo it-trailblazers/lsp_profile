@@ -1,0 +1,8 @@
+uuid: 4b2dc02e-f7fa-4fcf-824a-643e982ed36a
+langcode: en
+status: true
+dependencies: {  }
+id: quick-links
+label: 'Quick Links'
+description: 'Set footer menu'
+locked: false

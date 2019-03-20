@@ -1,0 +1,17 @@
+uuid: 6fe93cf4-9241-4a3f-847a-37de32195cd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'CTA Blocks'
+type: cta_blocks
+description: 'Creates CTA blocks.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

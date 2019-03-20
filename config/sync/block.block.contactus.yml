@@ -1,0 +1,25 @@
+uuid: e90f6bcf-efd8-4647-abbd-efda58cb4bdb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:e653f0f3-8938-49a5-a77b-fefc896b7f76'
+  module:
+    - block_content
+  theme:
+    - lsp_layout1
+id: contactus
+theme: lsp_layout1
+region: footer_right
+weight: 0
+provider: null
+plugin: 'block_content:e653f0f3-8938-49a5-a77b-fefc896b7f76'
+settings:
+  id: 'block_content:e653f0f3-8938-49a5-a77b-fefc896b7f76'
+  label: 'Contact Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

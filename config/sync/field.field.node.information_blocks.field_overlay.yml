@@ -1,0 +1,21 @@
+uuid: a0eaee0f-6bac-4ff2-a9cc-973ea7496378
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_overlay
+    - node.type.information_blocks
+  module:
+    - text
+id: node.information_blocks.field_overlay
+field_name: field_overlay
+entity_type: node
+bundle: information_blocks
+label: Overlay
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,17 @@
+uuid: 727391cf-7eaf-469d-b0b5-5b104dacebb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: 'This is a content type for creating a general product.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

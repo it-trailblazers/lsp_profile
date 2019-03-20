@@ -1,0 +1,137 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo.png"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1f42e504-1a18-4bee-a0c2-3521401a3573"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_note"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-03-18T15:39:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a8abca67-236d-49e5-97dc-9ee454e37eb5"
+                    }
+                ],
+                "alt": "Footer Logo",
+                "title": "",
+                "width": "268",
+                "height": "29"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Footer Desc",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-18T15:39:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Do eiusmod tempor incididunt ut labore et dolore<br \/>\r\nmagna aliqua sed ipsum uat enim veniam<br \/>\r\nquis nostrud exercitation ullamco laboris nisi ut<br \/>\r\naliquip.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Do eiusmod tempor incididunt ut labore et dolore<br \/>\nmagna aliqua sed ipsum uat enim veniam<br \/>\nquis nostrud exercitation ullamco laboris nisi ut<br \/>\naliquip.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

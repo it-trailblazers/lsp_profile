@@ -1,0 +1,25 @@
+uuid: 9ffb6627-7f5b-4e94-a3e4-4fa0264c8e3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_our_team_block.field_node_reference
+    - paragraphs.paragraphs_type.embed_our_team_block
+id: paragraph.embed_our_team_block.default
+targetEntityType: paragraph
+bundle: embed_our_team_block
+mode: default
+content:
+  field_node_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

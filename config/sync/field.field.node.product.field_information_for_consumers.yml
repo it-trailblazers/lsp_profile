@@ -1,0 +1,21 @@
+uuid: 0c132086-b072-4645-8780-7506cc67f471
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_information_for_consumers
+    - node.type.product
+  module:
+    - text
+id: node.product.field_information_for_consumers
+field_name: field_information_for_consumers
+entity_type: node
+bundle: product
+label: 'Information for consumers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
