@@ -33,6 +33,12 @@
         "drupal/search_api": "1.11.0",
         "drupal/search_api_solr": "1.2.0",
         "drupal/token": "1.0.0",
-        "drupal/bootstrap": "3.17.0"
+        "drupal/entity_reference_revisions": "1.6.0",
+        "drupal/views_bootstrap": "3.1.0",
+        "drupal/viewsreference": "1.4.0",
+        "drupal/ds": "3.3.0",
+        "drupal/paragraphs": "1.6.0",
+        "drupal/bootstrap": "3.17.0",
+        "drupal/adminimal_theme": "1.4.0"
     }   
 }
