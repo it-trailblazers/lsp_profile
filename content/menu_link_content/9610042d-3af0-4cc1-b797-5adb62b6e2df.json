@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/6\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/17\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 6
+            "value": 17
         }
     ],
     "uuid": [
         {
-            "value": "efd2879c-2e26-47c5-9038-dc190468f204"
+            "value": "9610042d-3af0-4cc1-b797-5adb62b6e2df"
         }
     ],
     "langcode": [
@@ -35,7 +35,7 @@
     ],
     "title": [
         {
-            "value": "CONTACT US",
+            "value": "PHARMACY FINDER",
             "lang": "en"
         }
     ],
@@ -46,7 +46,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/pharmacy-finder",
             "title": "",
             "options": []
         }
@@ -63,7 +63,7 @@
     ],
     "weight": [
         {
-            "value": -45
+            "value": -47
         }
     ],
     "expanded": [
@@ -73,7 +73,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-12T08:22:40+00:00",
+            "value": "2019-03-22T13:01:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

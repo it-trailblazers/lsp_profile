@@ -1,0 +1,32 @@
+uuid: 7e63d817-c6f6-4006-b7eb-187fe6f3f82f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_list_cta
+  module:
+    - ctools
+    - views
+  theme:
+    - lsp_layout1
+id: views_block__product_list_cta_block_1
+theme: lsp_layout1
+region: content
+weight: 2
+provider: null
+plugin: 'views_block:product_list_cta-block_1'
+settings:
+  id: 'views_block:product_list_cta-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product_listing_page: product_listing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

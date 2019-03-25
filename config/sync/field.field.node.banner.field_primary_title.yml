@@ -1,0 +1,21 @@
+uuid: d2660fa9-fbba-4b7d-8153-6821a4625274
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_title
+    - node.type.banner
+  module:
+    - text
+id: node.banner.field_primary_title
+field_name: field_primary_title
+entity_type: node
+bundle: banner
+label: 'Primary Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

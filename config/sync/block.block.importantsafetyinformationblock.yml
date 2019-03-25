@@ -1,0 +1,37 @@
+uuid: a55d0172-5a1c-4266-bcf3-0f1c7a1ff49b
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - imp_safety_info
+  theme:
+    - lsp_layout1
+id: importantsafetyinformationblock
+theme: lsp_layout1
+region: sidebar_second
+weight: 0
+provider: null
+plugin: imp_safety_info_block
+settings:
+  id: imp_safety_info_block
+  label: 'Important Safety Information block'
+  provider: imp_safety_info
+  label_display: '0'
+  machine_name: importantsafetyinformationblock
+  isi_height: '30'
+  isi_text_padding_left: '20'
+  isi_text_padding_right: '20'
+  isi_body_description:
+    value: "<p>Important <span class=\"blue\">Safety</span></p>\r\n\r\n<p><strong>Information &amp;</strong> <span class=\"blue\"><strong>Indication</strong></span></p>\r\n\r\n<p><strong><span class=\"blue\">Contraindications</span></strong><br />\r\nEUCRISA is contraindicated in patients with known&nbsp;<br />\r\nhypersensitivity to crisaborole or any component of the formulation.</p>\r\n\r\n<p><strong><span class=\"blue\">Contraindications</span></strong><br />\r\nHypersensitivity reactions, including contact urticaria, have occurred in patients treated with EUCRISA and should be suspected in the event of severe pruritus, swelling and erythema at the application site or at a&nbsp;<br />\r\ndistant site. Discontinue EUCRISA immediately and&nbsp;<br />\r\ninitiate appropriate therapy if signs and symptoms of hypersensitivity occur.</p>\r\n\r\n<p><strong><span class=\"blue\">Adverse Reactions</span></strong><br />\r\nEUCRISA is contraindicated in patients with known&nbsp;<br />\r\nhypersensitivity to crisaborole or any component of the formulation.</p>\r\n\r\n<p><strong><span class=\"blue\">INDICATION</span></strong><br />\r\nEUCRISA is indicated for topical treatment of mild-to-moderate atopic dermatitis in patients 2 years of age and older.</p>\r\n\r\n<p>Please see <strong><span class=\"blue\">Full Prescribing Information and&nbsp;<br />\r\nMedication Guide.</span></strong></p>\r\n"
+    format: full_html
+  isi_background_color: '#dee0df'
+  isi_font_color: '#000000'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

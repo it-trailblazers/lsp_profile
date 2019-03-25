@@ -17,4 +17,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_cta_description: true
+  field_cta_filter: true
+  field_image: true

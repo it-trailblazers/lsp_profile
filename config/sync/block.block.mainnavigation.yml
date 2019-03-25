@@ -11,7 +11,7 @@ dependencies:
 id: mainnavigation
 theme: lsp_layout1
 region: navigation_collapsible
-weight: 0
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:

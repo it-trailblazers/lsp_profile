@@ -1,0 +1,25 @@
+uuid: 2c2dfc74-e961-4983-bcfe-a46f254077e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contact_us
+    - paragraphs.paragraphs_type.embed_blocks_non_view_
+  module:
+    - block_field
+id: paragraph.embed_blocks_non_view_.field_contact_us
+field_name: field_contact_us
+entity_type: paragraph
+bundle: embed_blocks_non_view_
+label: 'Contact US'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: contact_block
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

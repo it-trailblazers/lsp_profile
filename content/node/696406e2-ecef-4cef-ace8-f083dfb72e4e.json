@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/pantoprazole?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/kid-pleasure-drink-medicine-during-footage-053288265_iconl_0.jpeg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 39
+        }
+    ],
+    "uuid": [
+        {
+            "value": "696406e2-ecef-4cef-ace8-f083dfb72e4e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 84
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:52:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/kid-pleasure-drink-medicine-during-footage-053288265_iconl_0.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e4b8d452-c35d-4698-afa8-3fe4decadc81"
+                    }
+                ],
+                "lang": "en",
+                "alt": "sada",
+                "title": "",
+                "width": "480",
+                "height": "268"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb1a545c-1538-4607-9e66-2d55daf05aae"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe4e8297-68f4-4960-9700-5a3512c552eb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Pantoprazole",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:51:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:52:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/pantoprazole"
+    },
+    "body": [
+        {
+            "value": "<p><a href=\"https:\/\/www.drugs.com\/monograph\/pantoprazole-sodium.html\" onclick=\"ga('send', 'event', 'Content Link', 'Pantoprazole');\">Pantoprazole<\/a>&nbsp;is a proton pump inhibitor that decreases the amount of acid produced in the stomach.<\/p>\r\n\r\n<p>Pantoprazole is used to treat&nbsp;<a href=\"https:\/\/www.drugs.com\/mcd\/esophagitis\" onclick=\"ga('send', 'event', 'Content Link', 'erosive esophagitis');\">erosive esophagitis<\/a>&nbsp;(damage to the esophagus from stomach acid caused by&nbsp;<a href=\"https:\/\/www.drugs.com\/health-guide\/gastroesophageal-reflux-disease-gerd.html\" onclick=\"ga('send', 'event', 'Content Link', 'gastroesophageal reflux disease');\">gastroesophageal reflux disease<\/a>, or&nbsp;<a href=\"https:\/\/www.drugs.com\/cg\/gastroesophageal-reflux-disease.html\" onclick=\"ga('send', 'event', 'Content Link', 'GERD');\">GERD<\/a>) in adults and children who are at least 5 years old. Pantoprazole is usually given for up to 8 weeks at a time while your esophagus heals.<\/p>\r\n\r\n<p>Pantoprazole is also used to treat&nbsp;<a href=\"https:\/\/www.drugs.com\/mcd\/zollinger-ellison-syndrome\" onclick=\"ga('send', 'event', 'Content Link', 'Zollinger-Ellison syndrome');\">Zollinger-Ellison syndrome<\/a>&nbsp;and other conditions involving excess stomach acid.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p><a href=\"https:\/\/www.drugs.com\/monograph\/pantoprazole-sodium.html\" onclick=\"ga('send', 'event', 'Content Link', 'Pantoprazole');\">Pantoprazole<\/a>\u00a0is a proton pump inhibitor that decreases the amount of acid produced in the stomach.<\/p>\n\n<p>Pantoprazole is used to treat\u00a0<a href=\"https:\/\/www.drugs.com\/mcd\/esophagitis\" onclick=\"ga('send', 'event', 'Content Link', 'erosive esophagitis');\">erosive esophagitis<\/a>\u00a0(damage to the esophagus from stomach acid caused by\u00a0<a href=\"https:\/\/www.drugs.com\/health-guide\/gastroesophageal-reflux-disease-gerd.html\" onclick=\"ga('send', 'event', 'Content Link', 'gastroesophageal reflux disease');\">gastroesophageal reflux disease<\/a>, or\u00a0<a href=\"https:\/\/www.drugs.com\/cg\/gastroesophageal-reflux-disease.html\" onclick=\"ga('send', 'event', 'Content Link', 'GERD');\">GERD<\/a>) in adults and children who are at least 5 years old. Pantoprazole is usually given for up to 8 weeks at a time while your esophagus heals.<\/p>\n\n<p>Pantoprazole is also used to treat\u00a0<a href=\"https:\/\/www.drugs.com\/mcd\/zollinger-ellison-syndrome\" onclick=\"ga('send', 'event', 'Content Link', 'Zollinger-Ellison syndrome');\">Zollinger-Ellison syndrome<\/a>\u00a0and other conditions involving excess stomach acid.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Pantoprazole",
+            "format": "full_html",
+            "processed": "Pantoprazole",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">pantoprazole (oral\/injection) (pan TOE pra zole)<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">pantoprazole (oral\/injection) (pan TOE pra zole)<\/span>",
+            "lang": "en"
+        }
+    ]
+}

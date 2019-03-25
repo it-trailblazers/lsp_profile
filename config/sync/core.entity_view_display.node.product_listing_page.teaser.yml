@@ -1,0 +1,22 @@
+uuid: 8a795bc0-ccbe-4750-b1f4-dd5158b9cf6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product_listing_page.field_add_paragraphs
+    - node.type.product_listing_page
+  module:
+    - user
+id: node.product_listing_page.teaser
+targetEntityType: node
+bundle: product_listing_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_add_paragraphs: true

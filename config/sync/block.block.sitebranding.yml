@@ -8,8 +8,8 @@ dependencies:
     - lsp_layout1
 id: sitebranding
 theme: lsp_layout1
-region: navigation
-weight: 0
+region: navigation_collapsible
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:

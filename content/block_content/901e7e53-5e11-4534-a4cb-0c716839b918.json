@@ -1,0 +1,105 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "901e7e53-5e11-4534-a4cb-0c716839b918"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 8
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_note"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-03-21T14:21:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T14:21:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"top-nav-contact-block\">\r\n<p id=\"phone-no\">Call US 234.150.9876<\/p>\r\n\r\n<p id=\"email-id\">info@lifesciencesplatform.com<\/p>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"top-nav-contact-block\">\n<p id=\"phone-no\">Call US 234.150.9876<\/p>\n\n<p id=\"email-id\">info@lifesciencesplatform.com<\/p>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

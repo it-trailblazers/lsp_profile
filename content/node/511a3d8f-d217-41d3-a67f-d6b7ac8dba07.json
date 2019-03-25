@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/y-90-zevalin?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/47895081-diet-nutrition-vitamins-healthy-eating-lifestyle-close-up-of-happy-smiling-woman-taking-pill-with-co_0.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 48
+        }
+    ],
+    "uuid": [
+        {
+            "value": "511a3d8f-d217-41d3-a67f-d6b7ac8dba07"
+        }
+    ],
+    "vid": [
+        {
+            "value": 93
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T11:11:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/47895081-diet-nutrition-vitamins-healthy-eating-lifestyle-close-up-of-happy-smiling-woman-taking-pill-with-co_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7adc3b09-ccde-44b3-bcff-9b7c98e53390"
+                    }
+                ],
+                "lang": "en",
+                "alt": "ibritumomab (ib ri TYOO mo mab)",
+                "title": "",
+                "width": "1300",
+                "height": "866"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1a572da-659c-4f7e-acd2-85c37ec7ac77"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Y-90 Zevalin",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T11:10:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T11:11:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/y-90-zevalin"
+    },
+    "body": [
+        {
+            "value": "<p>Y-90&nbsp;<a data-ga-action=\"Zevalin\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/monograph\/zevalin.html\">Zevalin<\/a>&nbsp;is a protein that targets white blood cells in the body. When this medicine is attached to a radioactive chemical, the radiation is delivered directly to the tumor (lymphoma).<\/p>\r\n\r\n<p>Y-90 Zevalin is used in combination with other medicines to treat&nbsp;<a data-ga-action=\"non-Hodgkin's lymphoma\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/non-hodgkin-lymphoma.html\">non-Hodgkin's lymphoma<\/a>.<\/p>\r\n\r\n<p>Y-90 Zevalin may also be used for purposes not listed in this medication guide.<\/p>\r\n\r\n<h2>Important Information<\/h2>\r\n\r\n<p><b>Life-threatening reactions may occur during the injection or within 24 hours afterward.<\/b>&nbsp;Tell your caregivers or seek medical attention if you feel light-headed or short of breath, or if you have chest tightness or pain spreading to your jaw or shoulder.<\/p>\r\n\r\n<p><b>Serious and sometimes fatal infections or skin reactions may occur during treatment with Y-90 Zevalin, and up to 4 months afterward. Call your doctor right away if you have:<\/b>&nbsp;fever, chills, mouth sores, pale skin,&nbsp;<a data-ga-action=\"cold hands\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/mcs\/cold-hands\">cold hands<\/a>&nbsp;and feet, feeling light-headed or short of breath, easy bruising or bleeding, or skin changes where the medicine was injected.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Y-90\u00a0<a data-ga-action=\"Zevalin\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/monograph\/zevalin.html\">Zevalin<\/a>\u00a0is a protein that targets white blood cells in the body. When this medicine is attached to a radioactive chemical, the radiation is delivered directly to the tumor (lymphoma).<\/p>\n\n<p>Y-90 Zevalin is used in combination with other medicines to treat\u00a0<a data-ga-action=\"non-Hodgkin's lymphoma\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/non-hodgkin-lymphoma.html\">non-Hodgkin's lymphoma<\/a>.<\/p>\n\n<p>Y-90 Zevalin may also be used for purposes not listed in this medication guide.<\/p>\n\n<h2>Important Information<\/h2>\n\n<p><b>Life-threatening reactions may occur during the injection or within 24 hours afterward.<\/b>\u00a0Tell your caregivers or seek medical attention if you feel light-headed or short of breath, or if you have chest tightness or pain spreading to your jaw or shoulder.<\/p>\n\n<p><b>Serious and sometimes fatal infections or skin reactions may occur during treatment with Y-90 Zevalin, and up to 4 months afterward. Call your doctor right away if you have:<\/b>\u00a0fever, chills, mouth sores, pale skin,\u00a0<a data-ga-action=\"cold hands\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/mcs\/cold-hands\">cold hands<\/a>\u00a0and feet, feeling light-headed or short of breath, easy bruising or bleeding, or skin changes where the medicine was injected.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Y-90 Zevalin",
+            "format": "full_html",
+            "processed": "Y-90 Zevalin",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">ibritumomab (ib ri TYOO mo mab)<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">ibritumomab (ib ri TYOO mo mab)<\/span>",
+            "lang": "en"
+        }
+    ]
+}

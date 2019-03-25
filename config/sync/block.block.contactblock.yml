@@ -1,0 +1,33 @@
+uuid: 59bad096-34f4-4385-a790-2b71951d9ce6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+  module:
+    - block_class
+    - contact_block
+    - system
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: col-md-6
+id: contactblock
+theme: lsp_layout1
+region: content
+weight: -2
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: contact_us
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

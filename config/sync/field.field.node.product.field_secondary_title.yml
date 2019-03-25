@@ -1,0 +1,21 @@
+uuid: 2a3c66e2-6de9-4c7c-b72b-841e3d05a1b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_secondary_title
+    - node.type.product
+  module:
+    - text
+id: node.product.field_secondary_title
+field_name: field_secondary_title
+entity_type: node
+bundle: product
+label: 'Secondary Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

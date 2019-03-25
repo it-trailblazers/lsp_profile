@@ -1,0 +1,9 @@
+uuid: b96fb25c-3e27-46ca-b1fa-48e1ef1b20b7
+langcode: en
+status: true
+dependencies: {  }
+id: embed_blocks_non_view_
+label: 'Embed  Blocks (non view)'
+icon_uuid: null
+description: 'Embed blocks not generated using  views. '
+behavior_plugins: {  }

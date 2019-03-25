@@ -5,12 +5,7 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -44,25 +39,6 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
-                    }
-                ]
-            }
-        ]
-    },
     "status": [
         {
             "value": true,

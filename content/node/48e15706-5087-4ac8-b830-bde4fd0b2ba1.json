@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/jalyn?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/smiling-doctor-over-medical-icons-blue-background-healthcare-medicine-people-symbols-concept-young-nurse-47912132.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "48e15706-5087-4ac8-b830-bde4fd0b2ba1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 74
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:39:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/smiling-doctor-over-medical-icons-blue-background-healthcare-medicine-people-symbols-concept-young-nurse-47912132.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "532e25bf-5968-4a84-88ac-5f3e4369ad01"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Jalyn",
+                "title": "",
+                "width": "1300",
+                "height": "1051"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb1a545c-1538-4607-9e66-2d55daf05aae"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe4e8297-68f4-4960-9700-5a3512c552eb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Jalyn",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:38:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:39:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/jalyn"
+    },
+    "body": [
+        {
+            "value": "<p>Jalyn contains a combination of&nbsp;<a href=\"https:\/\/www.drugs.com\/monograph\/dutasteride.html\" onclick=\"ga('send', 'event', 'Content Link', 'dutasteride');\">dutasteride<\/a>&nbsp;and&nbsp;<a href=\"https:\/\/www.drugs.com\/monograph\/tamsulosin-hydrochloride.html\" onclick=\"ga('send', 'event', 'Content Link', 'tamsulosin');\">tamsulosin<\/a>. Dutasteride prevents&nbsp;<a data-ga-action=\"testosterone\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/testosterone.html\" onclick=\"ga('send', 'event', 'Content Link', 'testosterone');\">testosterone<\/a>&nbsp;from converting to dihydrotestosterone (DHT) in the body. DHT is involved in the development of&nbsp;<a data-ga-action=\"benign prostatic hyperplasia\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/benign-prostatic-hypertrophy.html\" onclick=\"ga('send', 'event', 'Content Link', 'benign prostatic hyperplasia');\">benign prostatic hyperplasia<\/a>&nbsp;(BPH).<\/p>\r\n\r\n<p>Tamsulosin relaxes the muscles in the prostate and bladder neck, making it easier to urinate.<\/p>\r\n\r\n<p>Jalyn is used to treat benign prostatic hyperplasia (BPH) in men with an&nbsp;<a data-ga-action=\"enlarged prostate\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/benign-prostatic-hypertrophy.html\" onclick=\"ga('send', 'event', 'Content Link', 'enlarged prostate');\">enlarged prostate<\/a>.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Jalyn contains a combination of\u00a0<a href=\"https:\/\/www.drugs.com\/monograph\/dutasteride.html\" onclick=\"ga('send', 'event', 'Content Link', 'dutasteride');\">dutasteride<\/a>\u00a0and\u00a0<a href=\"https:\/\/www.drugs.com\/monograph\/tamsulosin-hydrochloride.html\" onclick=\"ga('send', 'event', 'Content Link', 'tamsulosin');\">tamsulosin<\/a>. Dutasteride prevents\u00a0<a data-ga-action=\"testosterone\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/testosterone.html\" onclick=\"ga('send', 'event', 'Content Link', 'testosterone');\">testosterone<\/a>\u00a0from converting to dihydrotestosterone (DHT) in the body. DHT is involved in the development of\u00a0<a data-ga-action=\"benign prostatic hyperplasia\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/benign-prostatic-hypertrophy.html\" onclick=\"ga('send', 'event', 'Content Link', 'benign prostatic hyperplasia');\">benign prostatic hyperplasia<\/a>\u00a0(BPH).<\/p>\n\n<p>Tamsulosin relaxes the muscles in the prostate and bladder neck, making it easier to urinate.<\/p>\n\n<p>Jalyn is used to treat benign prostatic hyperplasia (BPH) in men with an\u00a0<a data-ga-action=\"enlarged prostate\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/benign-prostatic-hypertrophy.html\" onclick=\"ga('send', 'event', 'Content Link', 'enlarged prostate');\">enlarged prostate<\/a>.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Jalyn",
+            "format": "full_html",
+            "processed": "Jalyn",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": " Generic Name: <span class=\"blue\">dutasteride and tamsulosin<\/span>",
+            "format": "full_html",
+            "processed": " Generic Name: <span class=\"blue\">dutasteride and tamsulosin<\/span>",
+            "lang": "en"
+        }
+    ]
+}

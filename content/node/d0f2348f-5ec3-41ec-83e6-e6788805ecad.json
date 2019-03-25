@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/sertraline?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/images%20%281%29_0.jpeg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 42
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d0f2348f-5ec3-41ec-83e6-e6788805ecad"
+        }
+    ],
+    "vid": [
+        {
+            "value": 87
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:59:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/images%20%281%29_0.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "df25f7fb-1702-4913-9eb8-6fa4b1fbe960"
+                    }
+                ],
+                "lang": "en",
+                "alt": "sertraline ",
+                "title": "",
+                "width": "267",
+                "height": "189"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1a572da-659c-4f7e-acd2-85c37ec7ac77"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sertraline",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:57:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:59:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/sertraline"
+    },
+    "body": [
+        {
+            "value": "<p><a href=\"https:\/\/www.drugs.com\/monograph\/sertraline-hydrochloride.html\" onclick=\"ga('send', 'event', 'Content Link', 'Sertraline');\">Sertraline<\/a>&nbsp;is an&nbsp;<a href=\"https:\/\/www.drugs.com\/mca\/antidepressants-selecting-one-that-s-right-for-you\" onclick=\"ga('send', 'event', 'Content Link', 'antidepressant');\">antidepressant<\/a>&nbsp;in a group of drugs called&nbsp;<a href=\"https:\/\/www.drugs.com\/drug-class\/ssri-antidepressants.html\" onclick=\"ga('send', 'event', 'Content Link', 'selective serotonin reuptake inhibitors (SSRIs)');\">selective serotonin reuptake inhibitors (SSRIs)<\/a>. Sertraline affects chemicals in the brain that may be unbalanced in people with depression, panic, anxiety, or obsessive-compulsive symptoms.<\/p>\r\n\r\n<p>Sertraline is used to treat depression, obsessive-compulsive disorder, anxiety disorders (including panic disorder and social anxiety disorder), post-traumatic stress disorder (PTSD), and premenstrual dysphoric disorder (PMDD).<\/p>\r\n\r\n<h2>Important information<\/h2>\r\n\r\n<p>You should not use sertraline if you also take pimozide, or if you are being treated with methylene blue injection.<\/p>\r\n\r\n<p>Do not use sertraline if you have used an MAO inhibitor in the past 14 days, such as isocarboxazid, linezolid, methylene blue injection, phenelzine, rasagiline, selegiline, or tranylcypromine.<\/p>\r\n\r\n<p>Some children and young adults have thoughts about suicide when first taking an antidepressant. Stay alert to changes in your mood or symptoms. Report any new or worsening symptoms to your doctor.<\/p>\r\n\r\n<p><b>Seek medical attention right away if you have symptoms of serotonin syndrome, such as:<\/b>agitation, hallucinations, fever, sweating, shivering, fast heart rate, muscle stiffness, twitching, loss of coordination, nausea, vomiting, or diarrhea.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p><a href=\"https:\/\/www.drugs.com\/monograph\/sertraline-hydrochloride.html\" onclick=\"ga('send', 'event', 'Content Link', 'Sertraline');\">Sertraline<\/a>\u00a0is an\u00a0<a href=\"https:\/\/www.drugs.com\/mca\/antidepressants-selecting-one-that-s-right-for-you\" onclick=\"ga('send', 'event', 'Content Link', 'antidepressant');\">antidepressant<\/a>\u00a0in a group of drugs called\u00a0<a href=\"https:\/\/www.drugs.com\/drug-class\/ssri-antidepressants.html\" onclick=\"ga('send', 'event', 'Content Link', 'selective serotonin reuptake inhibitors (SSRIs)');\">selective serotonin reuptake inhibitors (SSRIs)<\/a>. Sertraline affects chemicals in the brain that may be unbalanced in people with depression, panic, anxiety, or obsessive-compulsive symptoms.<\/p>\n\n<p>Sertraline is used to treat depression, obsessive-compulsive disorder, anxiety disorders (including panic disorder and social anxiety disorder), post-traumatic stress disorder (PTSD), and premenstrual dysphoric disorder (PMDD).<\/p>\n\n<h2>Important information<\/h2>\n\n<p>You should not use sertraline if you also take pimozide, or if you are being treated with methylene blue injection.<\/p>\n\n<p>Do not use sertraline if you have used an MAO inhibitor in the past 14 days, such as isocarboxazid, linezolid, methylene blue injection, phenelzine, rasagiline, selegiline, or tranylcypromine.<\/p>\n\n<p>Some children and young adults have thoughts about suicide when first taking an antidepressant. Stay alert to changes in your mood or symptoms. Report any new or worsening symptoms to your doctor.<\/p>\n\n<p><b>Seek medical attention right away if you have symptoms of serotonin syndrome, such as:<\/b>agitation, hallucinations, fever, sweating, shivering, fast heart rate, muscle stiffness, twitching, loss of coordination, nausea, vomiting, or diarrhea.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Sertraline",
+            "format": "full_html",
+            "processed": "Sertraline",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">sertraline (SER tra leen)<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">sertraline (SER tra leen)<\/span>",
+            "lang": "en"
+        }
+    ]
+}

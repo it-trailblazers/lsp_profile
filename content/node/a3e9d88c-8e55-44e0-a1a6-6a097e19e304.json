@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/herceptin?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/kid-pleasure-drink-medicine-during-footage-053288265_iconl.jpeg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 30
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a3e9d88c-8e55-44e0-a1a6-6a097e19e304"
+        }
+    ],
+    "vid": [
+        {
+            "value": 71
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:36:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/kid-pleasure-drink-medicine-during-footage-053288265_iconl.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c0d5b38f-5de2-4288-b078-465cd7e61e8f"
+                    }
+                ],
+                "lang": "en",
+                "alt": "trastuzumab ",
+                "title": "",
+                "width": "480",
+                "height": "268"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dc850a32-620b-49f9-958f-01b7e8db31a3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Herceptin",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:36:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:36:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/herceptin"
+    },
+    "body": [
+        {
+            "value": "<p>Herceptin (<a href=\"https:\/\/www.drugs.com\/monograph\/trastuzumab.html\" onclick=\"ga('send', 'event', 'Content Link', 'trastuzumab');\">trastuzumab<\/a>) is a cancer medicine that interferes with the growth and spread of cancer cells in the body.<\/p>\r\n\r\n<p>Herceptin is used to treat certain types of&nbsp;<a data-ga-action=\"breast cancer\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/breast-cancer-in-women.html\" onclick=\"ga('send', 'event', 'Content Link', 'breast cancer');\">breast cancer<\/a>&nbsp;or&nbsp;<a data-ga-action=\"stomach cancer\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/stomach-cancer.html\" onclick=\"ga('send', 'event', 'Content Link', 'stomach cancer');\">stomach cancer<\/a>.<\/p>\r\n\r\n<p>Other cancer medicines are sometimes used in combination with Herceptin.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Herceptin (<a href=\"https:\/\/www.drugs.com\/monograph\/trastuzumab.html\" onclick=\"ga('send', 'event', 'Content Link', 'trastuzumab');\">trastuzumab<\/a>) is a cancer medicine that interferes with the growth and spread of cancer cells in the body.<\/p>\n\n<p>Herceptin is used to treat certain types of\u00a0<a data-ga-action=\"breast cancer\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/breast-cancer-in-women.html\" onclick=\"ga('send', 'event', 'Content Link', 'breast cancer');\">breast cancer<\/a>\u00a0or\u00a0<a data-ga-action=\"stomach cancer\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/stomach-cancer.html\" onclick=\"ga('send', 'event', 'Content Link', 'stomach cancer');\">stomach cancer<\/a>.<\/p>\n\n<p>Other cancer medicines are sometimes used in combination with Herceptin.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Herceptin",
+            "format": "full_html",
+            "processed": "Herceptin",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">trastuzumab<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">trastuzumab<\/span>",
+            "lang": "en"
+        }
+    ]
+}

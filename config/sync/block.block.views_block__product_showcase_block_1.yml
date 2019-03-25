@@ -1,0 +1,32 @@
+uuid: 446724ec-595c-4e76-a56c-491a63d18e70
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_showcase
+  module:
+    - ctools
+    - views
+  theme:
+    - lsp_layout1
+id: views_block__product_showcase_block_1
+theme: lsp_layout1
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:product_showcase-block_1'
+settings:
+  id: 'views_block:product_showcase-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product_listing_page: product_listing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

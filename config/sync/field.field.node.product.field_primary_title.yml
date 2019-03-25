@@ -1,0 +1,21 @@
+uuid: a67f4fc3-26e1-4661-b8e8-6d086f0f20ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_title
+    - node.type.product
+  module:
+    - text
+id: node.product.field_primary_title
+field_name: field_primary_title
+entity_type: node
+bundle: product
+label: 'Primary Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

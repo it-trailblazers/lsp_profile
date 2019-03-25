@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/relafen?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/Woman%20looking%20in%20medicine%20cabinet.jpg.838x0_q67_crop-smart_0.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "97c44526-a9c2-4ca1-81b2-464f109e4577"
+        }
+    ],
+    "vid": [
+        {
+            "value": 86
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:57:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/Woman%20looking%20in%20medicine%20cabinet.jpg.838x0_q67_crop-smart_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eac3eb38-818d-402d-afc7-f0bec0dd20ac"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Relafen",
+                "title": "",
+                "width": "838",
+                "height": "559"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb1a545c-1538-4607-9e66-2d55daf05aae"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe4e8297-68f4-4960-9700-5a3512c552eb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Relafen",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:56:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:57:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/relafen"
+    },
+    "body": [
+        {
+            "value": "<p>Relafen (nabumetone) is a nonsteroidal anti-inflammatory drug (NSAID). Nabumetone works by reducing hormones that cause inflammation and pain in the body.<\/p>\r\n\r\n<p>Relafen is used to relieve the symptoms of&nbsp;<a href=\"https:\/\/www.drugs.com\/cg\/rheumatoid-arthritis.html\" onclick=\"ga('send', 'event', 'Content Link', 'rheumatoid arthritis');\">rheumatoid arthritis<\/a>&nbsp;or&nbsp;<a href=\"https:\/\/www.drugs.com\/cg\/osteoarthritis.html\" onclick=\"ga('send', 'event', 'Content Link', 'osteoarthritis');\">osteoarthritis<\/a>.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Relafen (nabumetone) is a nonsteroidal anti-inflammatory drug (NSAID). Nabumetone works by reducing hormones that cause inflammation and pain in the body.<\/p>\n\n<p>Relafen is used to relieve the symptoms of\u00a0<a href=\"https:\/\/www.drugs.com\/cg\/rheumatoid-arthritis.html\" onclick=\"ga('send', 'event', 'Content Link', 'rheumatoid arthritis');\">rheumatoid arthritis<\/a>\u00a0or\u00a0<a href=\"https:\/\/www.drugs.com\/cg\/osteoarthritis.html\" onclick=\"ga('send', 'event', 'Content Link', 'osteoarthritis');\">osteoarthritis<\/a>.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Relafen",
+            "format": "full_html",
+            "processed": "Relafen",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">nabumetone (na BUE me tone)<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">nabumetone (na BUE me tone)<\/span>",
+            "lang": "en"
+        }
+    ]
+}

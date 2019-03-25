@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/lovastatin?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/Woman%20looking%20in%20medicine%20cabinet.jpg.838x0_q67_crop-smart.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 34
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bf73cc52-7a7b-4c41-a11c-9a413670cc24"
+        }
+    ],
+    "vid": [
+        {
+            "value": 77
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:43:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/Woman%20looking%20in%20medicine%20cabinet.jpg.838x0_q67_crop-smart.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "54bb20e6-c489-47f4-8498-90d73295a849"
+                    }
+                ],
+                "lang": "en",
+                "alt": "lovastatin ",
+                "title": "",
+                "width": "838",
+                "height": "559"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1a572da-659c-4f7e-acd2-85c37ec7ac77"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Lovastatin",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:42:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:43:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/lovastatin"
+    },
+    "body": [
+        {
+            "value": "<p>Lovastatin reduces levels of \"bad\" cholesterol (low-density lipoprotein, or LDL) and triglycerides in the blood, while increasing levels of \"good\" cholesterol (high-density lipoprotein, or HDL).<\/p>\r\n\r\n<p>Lovastatin is used to lower the risk of stroke,&nbsp;<a data-ga-action=\"heart attack\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/heart-attack.html\">heart attack<\/a>, and other heart complications in people with diabetes,&nbsp;<a data-ga-action=\"coronary heart disease\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/coronary-artery-disease.html\">coronary heart disease<\/a>, or other risk factors.<\/p>\r\n\r\n<p>Lovastatin is used in adults and children who are at least 10 years old.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Lovastatin reduces levels of \"bad\" cholesterol (low-density lipoprotein, or LDL) and triglycerides in the blood, while increasing levels of \"good\" cholesterol (high-density lipoprotein, or HDL).<\/p>\n\n<p>Lovastatin is used to lower the risk of stroke,\u00a0<a data-ga-action=\"heart attack\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/heart-attack.html\">heart attack<\/a>, and other heart complications in people with diabetes,\u00a0<a data-ga-action=\"coronary heart disease\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/coronary-artery-disease.html\">coronary heart disease<\/a>, or other risk factors.<\/p>\n\n<p>Lovastatin is used in adults and children who are at least 10 years old.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Lovastatin",
+            "format": "full_html",
+            "processed": "Lovastatin",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": " Generic Name: <span class=\"blue\">lovastatin<\/span>",
+            "format": "full_html",
+            "processed": " Generic Name: <span class=\"blue\">lovastatin<\/span>",
+            "lang": "en"
+        }
+    ]
+}

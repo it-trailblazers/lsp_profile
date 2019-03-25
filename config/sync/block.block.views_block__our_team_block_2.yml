@@ -1,0 +1,30 @@
+uuid: 42b0ce95-a24d-4a1e-912e-6b460b58dfcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_team
+  module:
+    - system
+    - views
+  theme:
+    - lsp_layout1
+id: views_block__our_team_block_2
+theme: lsp_layout1
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:our_team-block_2'
+settings:
+  id: 'views_block:our_team-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

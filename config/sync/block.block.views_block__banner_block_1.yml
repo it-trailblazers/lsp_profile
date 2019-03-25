@@ -1,0 +1,44 @@
+uuid: 356633e2-e6b0-480b-82d4-c41bff5ac4fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - ctools
+    - user
+    - views
+  theme:
+    - lsp_layout1
+id: views_block__banner_block_1
+theme: lsp_layout1
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:banner-block_1'
+settings:
+  id: 'views_block:banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      basic_page: basic_page
+      pharmacy_finder: pharmacy_finder
+      product: product
+      product_listing_page: product_listing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

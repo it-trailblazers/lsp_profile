@@ -1,0 +1,20 @@
+uuid: 11c78ea6-b4ea-4722-9909-b73b0beefcfb
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - lsp_layout1
+id: searchform
+theme: lsp_layout1
+region: navigation
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }

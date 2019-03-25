@@ -1,0 +1,35 @@
+uuid: 8187eec9-a0be-45b0-a6cf-8b26db5ca169
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: col-md-6
+id: locationandaddress_2
+theme: lsp_layout1
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
+settings:
+  id: 'block_content:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
+  label: 'Location and Address'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

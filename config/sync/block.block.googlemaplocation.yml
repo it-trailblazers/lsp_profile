@@ -1,0 +1,35 @@
+uuid: b7945007-9f8d-400e-9a9f-902a12422320
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:034d37de-4dab-428a-a135-f5d439a01ab1'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: row
+id: googlemaplocation
+theme: lsp_layout1
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:034d37de-4dab-428a-a135-f5d439a01ab1'
+settings:
+  id: 'block_content:034d37de-4dab-428a-a135-f5d439a01ab1'
+  label: 'Google Map Location'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

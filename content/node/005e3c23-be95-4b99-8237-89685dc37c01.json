@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/product\/2019\/create-product?_format=hal_json"
+            "href": "http:\/\/default\/product\/2019?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ]
             }
@@ -80,7 +80,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ],
                 "lang": "en"
@@ -138,7 +138,7 @@
         }
     ],
     "path": {
-        "alias": "\/product\/2019\/create-product"
+        "alias": "\/product\/2019"
     },
     "field_additional_information": [
         {

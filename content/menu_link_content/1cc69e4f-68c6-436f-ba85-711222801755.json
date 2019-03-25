@@ -39,6 +39,12 @@
             "lang": "en"
         }
     ],
+    "description": [
+        {
+            "value": "About US",
+            "lang": "en"
+        }
+    ],
     "menu_name": [
         {
             "value": "main"
@@ -46,7 +52,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/about-us",
             "title": "",
             "options": []
         }
@@ -73,7 +79,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-12T08:22:40+00:00",
+            "value": "2019-03-21T13:02:50+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

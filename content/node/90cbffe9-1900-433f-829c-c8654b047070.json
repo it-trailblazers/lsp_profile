@@ -24,7 +24,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/cta_blocks\/field_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/pharmacy_services.png",
+                "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/pharmacy_services_2.png",
                 "lang": "en"
             }
         ]
@@ -74,7 +74,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ]
             }
@@ -91,7 +91,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ],
                 "lang": "en"
@@ -118,7 +118,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/pharmacy_services.png"
+                        "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/pharmacy_services_2.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"

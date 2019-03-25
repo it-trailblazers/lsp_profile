@@ -70,7 +70,7 @@ display:
           pause: 1
           wrap: 1
           image: field_image
-          title: title
+          title: ''
           description: nothing
       row:
         type: fields
@@ -147,7 +147,7 @@ display:
           group_type: group
           admin_label: ''
           label: ''
-          exclude: false
+          exclude: true
           alter:
             alter_text: false
             text: ''
@@ -166,8 +166,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: false
-            ellipsis: false
+            word_boundary: true
+            ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -407,7 +407,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div>\r\n<p class=\"slide_sub\">{{ field_sub_title }} </p><br>\r\n{{ body }} <br>\r\n{{ field_action_link }}<br>\r\n</div>"
+            text: "<div class=\"container\">\r\n<p class=\"slide_title\">{{ title }}</p>\r\n<p class=\"slide_sub\">{{ field_sub_title }}</p>\r\n<p>{{ body }} </p>\r\n<p>{{ field_action_link }}</p>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -504,10 +504,11 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: Slider
     position: 1
     display_options:
       display_extenders: {  }
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:

@@ -6,14 +6,9 @@
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
         },
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
-            }
-        ],
         "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/field_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo.png"
+                "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo_2.png"
             }
         ]
     },
@@ -49,46 +44,6 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
-                    }
-                ]
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/field_image": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo.png"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "a8abca67-236d-49e5-97dc-9ee454e37eb5"
-                    }
-                ],
-                "alt": "Footer Logo",
-                "title": "",
-                "width": "268",
-                "height": "29"
-            }
-        ]
-    },
     "status": [
         {
             "value": true,
@@ -133,5 +88,28 @@
             "summary": "",
             "lang": "en"
         }
-    ]
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/footer\/footer%20logo_2.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a8abca67-236d-49e5-97dc-9ee454e37eb5"
+                    }
+                ],
+                "alt": "Footer Logo",
+                "title": "",
+                "width": "268",
+                "height": "29"
+            }
+        ]
+    }
 }

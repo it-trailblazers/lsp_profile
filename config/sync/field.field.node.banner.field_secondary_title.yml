@@ -1,0 +1,21 @@
+uuid: 6008713e-1169-4dbb-af7b-28c8dd73b604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_secondary_title
+    - node.type.banner
+  module:
+    - text
+id: node.banner.field_secondary_title
+field_name: field_secondary_title
+entity_type: node
+bundle: banner
+label: 'Secondary Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

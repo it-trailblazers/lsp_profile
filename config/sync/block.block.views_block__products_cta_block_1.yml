@@ -1,0 +1,30 @@
+uuid: 8bbd4d2d-67eb-426b-853c-c414a5b4581e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products_cta
+  module:
+    - system
+    - views
+  theme:
+    - lsp_layout1
+id: views_block__products_cta_block_1
+theme: lsp_layout1
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:products_cta-block_1'
+settings:
+  id: 'views_block:products_cta-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -7,16 +7,16 @@ dependencies:
 id: product_url_alias_pattern
 label: 'Product URL Alias pattern'
 type: 'canonical_entities:node'
-pattern: 'product/[current-date:html_year]/[current-page:title]'
+pattern: 'product/[current-date:html_year]/[node:title]'
 selection_criteria:
-  c79c7770-f38d-4a6f-9243-13067fedd003:
+  12b350c2-74c7-428e-bff5-4012edc8af46:
     id: node_type
     bundles:
       product: product
     negate: false
     context_mapping:
       node: node
-    uuid: c79c7770-f38d-4a6f-9243-13067fedd003
+    uuid: 12b350c2-74c7-428e-bff5-4012edc8af46
 selection_logic: and
 weight: -5
 relationships: {  }

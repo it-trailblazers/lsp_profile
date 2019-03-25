@@ -19,7 +19,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/information_blocks\/field_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/Important%20Safety%20%20Information%20%26%20Indication.jpg",
+                "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/Important%20Safety%20%20Information%20%26%20Indication_2.jpg",
                 "lang": "en"
             }
         ]
@@ -36,7 +36,7 @@
     ],
     "vid": [
         {
-            "value": 39
+            "value": 51
         }
     ],
     "langcode": [
@@ -52,7 +52,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-19T10:40:02+00:00",
+            "value": "2019-03-21T09:20:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,7 +69,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ]
             }
@@ -86,7 +86,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ],
                 "lang": "en"
@@ -96,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/Important%20Safety%20%20Information%20%26%20Indication.jpg"
+                        "href": "http:\/\/default\/sites\/default\/files\/information_blocks\/Important%20Safety%20%20Information%20%26%20Indication_2.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -136,7 +136,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-19T10:40:02+00:00",
+            "value": "2019-03-21T09:20:07+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -189,9 +189,9 @@
     ],
     "field_overlay": [
         {
-            "value": "<div class=\"sky_blu\">\r\n<p class=\"discover\">Discover What's<\/p>\r\n\r\n<p class=\"pharm\"><strong>Next in Pharmacy<\/strong><\/p>\r\n<\/div>\r\n",
+            "value": "<div class=\"sky_blu\">\r\n<p class=\"discover\"><span>Discover What's<\/span><\/p>\r\n\r\n<p class=\"pharm\"><strong><span>Next in Pharmacy<\/span><\/strong><\/p>\r\n<\/div>\r\n",
             "format": "full_html",
-            "processed": "<div class=\"sky_blu\">\n<p class=\"discover\">Discover What's<\/p>\n\n<p class=\"pharm\"><strong>Next in Pharmacy<\/strong><\/p>\n<\/div>\n"
+            "processed": "<div class=\"sky_blu\">\n<p class=\"discover\"><span>Discover What's<\/span><\/p>\n\n<p class=\"pharm\"><strong><span>Next in Pharmacy<\/span><\/strong><\/p>\n<\/div>\n"
         }
     ],
     "field_primary_title": [

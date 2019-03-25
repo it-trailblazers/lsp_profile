@@ -1,0 +1,17 @@
+uuid: df28dadc-49a7-4370-b1ec-495a577afad0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Banner
+type: banner
+description: 'Content type for adding banner.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

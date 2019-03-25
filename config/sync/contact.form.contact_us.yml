@@ -1,0 +1,12 @@
+uuid: 90eb5a89-26b6-4eaa-8fa5-084d7229aa45
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - no-reply@lsp.com
+reply: ''
+weight: 0
+message: 'Thank you for your submission.  Our representatives will get back to you shortly. '
+redirect: /about

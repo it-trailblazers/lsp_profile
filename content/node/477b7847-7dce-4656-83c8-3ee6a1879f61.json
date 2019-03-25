@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/valproic-acid?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/1_0.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 45
+        }
+    ],
+    "uuid": [
+        {
+            "value": "477b7847-7dce-4656-83c8-3ee6a1879f61"
+        }
+    ],
+    "vid": [
+        {
+            "value": 90
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T11:07:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/1_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e5a79bb6-d902-48e4-b942-ea8c9b57dcc8"
+                    }
+                ],
+                "lang": "en",
+                "alt": "valproic acid",
+                "title": "",
+                "width": "910",
+                "height": "480"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe4e8297-68f4-4960-9700-5a3512c552eb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Valproic acid",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T11:06:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T11:07:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/valproic-acid"
+    },
+    "body": [
+        {
+            "value": "<p>Valproic acid affects chemicals in the body that may be involved in causing&nbsp;<a data-ga-action=\"seizures\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/seizures.html\">seizures<\/a>.<\/p>\r\n\r\n<p>Valproic acid is used to treat various types of seizure disorders. Valproic acid is sometimes used together with other seizure medications.<\/p>\r\n\r\n<p>Valproic acid is also used to treat manic episodes related to&nbsp;<a data-ga-action=\"bipolar disorder\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/bipolar-disorder.html\">bipolar disorder<\/a>&nbsp;(manic&nbsp;<a data-ga-action=\"depression\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/depression.html\">depression<\/a>), and to prevent&nbsp;<a data-ga-action=\"migraine\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/migraine-headache.html\">migraine<\/a>&nbsp;headaches.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Valproic acid affects chemicals in the body that may be involved in causing\u00a0<a data-ga-action=\"seizures\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/seizures.html\">seizures<\/a>.<\/p>\n\n<p>Valproic acid is used to treat various types of seizure disorders. Valproic acid is sometimes used together with other seizure medications.<\/p>\n\n<p>Valproic acid is also used to treat manic episodes related to\u00a0<a data-ga-action=\"bipolar disorder\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/bipolar-disorder.html\">bipolar disorder<\/a>\u00a0(manic\u00a0<a data-ga-action=\"depression\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/depression.html\">depression<\/a>), and to prevent\u00a0<a data-ga-action=\"migraine\" data-ga-category=\"Content Link\" href=\"https:\/\/www.drugs.com\/cg\/migraine-headache.html\">migraine<\/a>\u00a0headaches.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Valproic acid",
+            "format": "full_html",
+            "processed": "Valproic acid",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">valproic acid (val PRO ik A sid)<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">valproic acid (val PRO ik A sid)<\/span>",
+            "lang": "en"
+        }
+    ]
+}

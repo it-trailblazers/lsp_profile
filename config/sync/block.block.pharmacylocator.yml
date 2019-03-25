@@ -1,0 +1,31 @@
+uuid: 2cc39cc9-a992-4610-ad6f-32e63612406f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - ittb_pharmacy_locator
+    - system
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: container
+id: pharmacylocator
+theme: lsp_layout1
+region: content
+weight: 1
+provider: null
+plugin: ittb_pharmacy_locator_block
+settings:
+  id: ittb_pharmacy_locator_block
+  label: 'Pharmacy Locator'
+  provider: ittb_pharmacy_locator
+  label_display: '0'
+  locator_block_settings: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /pharmacy-finder
+    negate: false
+    context_mapping: {  }

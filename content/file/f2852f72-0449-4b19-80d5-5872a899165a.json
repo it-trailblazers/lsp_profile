@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/total_exp.png"
+            "href": "http:\/\/default\/sites\/default\/files\/cta_blocks\/total_exp_2.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ]
             }
@@ -53,8 +53,8 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/cta_blocks\/total_exp.png",
-            "url": "\/sites\/default\/files\/cta_blocks\/total_exp.png"
+            "value": "public:\/\/cta_blocks\/total_exp_2.png",
+            "url": "\/sites\/default\/files\/cta_blocks\/total_exp_2.png"
         }
     ],
     "filemime": [

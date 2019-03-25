@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/product\/2019\/create-product?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/1.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b7b40668-962f-4468-91cc-ed5f25b53e1e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 59
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-03-21T10:19:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/1.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9afe8b75-689e-4a1b-88d4-99c7db5018ae"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Augmentin",
+                "title": "",
+                "width": "910",
+                "height": "480"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/prescription_drug"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb1a545c-1538-4607-9e66-2d55daf05aae"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe4e8297-68f4-4960-9700-5a3512c552eb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Augmentin",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-21T10:16:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-21T10:19:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": {
+        "alias": "\/product\/2019\/create-product"
+    },
+    "body": [
+        {
+            "value": "<p>Augmentin contains a combination of&nbsp;<a href=\"https:\/\/www.drugs.com\/cdi\/amoxicillin-clavulanate-tablets.html\" onclick=\"ga('send', 'event', 'Content Link', 'amoxicillin and clavulanate potassium');\">amoxicillin and clavulanate potassium<\/a>. Amoxicillin is an&nbsp;<a href=\"https:\/\/www.drugs.com\/article\/antibiotics.html\" onclick=\"ga('send', 'event', 'Content Link', 'antibiotic');\">antibiotic<\/a>belonging to a group of drugs called&nbsp;<a href=\"https:\/\/www.drugs.com\/drug-class\/penicillins.html\" onclick=\"ga('send', 'event', 'Content Link', 'penicillins');\">penicillins<\/a>. Amoxicillin fights bacteria in the body.<\/p>\r\n\r\n<p>Clavulanate potassium is a beta-lactamase inhibitor that helps prevent certain bacteria from becoming resistant to amoxicillin.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Augmentin contains a combination of\u00a0<a href=\"https:\/\/www.drugs.com\/cdi\/amoxicillin-clavulanate-tablets.html\" onclick=\"ga('send', 'event', 'Content Link', 'amoxicillin and clavulanate potassium');\">amoxicillin and clavulanate potassium<\/a>. Amoxicillin is an\u00a0<a href=\"https:\/\/www.drugs.com\/article\/antibiotics.html\" onclick=\"ga('send', 'event', 'Content Link', 'antibiotic');\">antibiotic<\/a>belonging to a group of drugs called\u00a0<a href=\"https:\/\/www.drugs.com\/drug-class\/penicillins.html\" onclick=\"ga('send', 'event', 'Content Link', 'penicillins');\">penicillins<\/a>. Amoxicillin fights bacteria in the body.<\/p>\n\n<p>Clavulanate potassium is a beta-lactamase inhibitor that helps prevent certain bacteria from becoming resistant to amoxicillin.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_primary_title": [
+        {
+            "value": "Augmentin&nbsp;<span class=\"blue\">Augmentin ES-600<\/span>",
+            "format": "full_html",
+            "processed": "Augmentin\u00a0<span class=\"blue\">Augmentin ES-600<\/span>",
+            "lang": "en"
+        }
+    ],
+    "field_secondary_title": [
+        {
+            "value": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span>",
+            "format": "full_html",
+            "processed": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span>",
+            "lang": "en"
+        }
+    ]
+}

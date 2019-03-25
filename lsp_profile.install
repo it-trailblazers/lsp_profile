@@ -11,3 +11,10 @@
  *
  * @see system_install()
  */
+/*function lsp_profile_install() {
+
+  // First, do everything in standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
+
+} */

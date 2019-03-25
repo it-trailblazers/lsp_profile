@@ -16,26 +16,6 @@
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_add_paragraphs": [
-            {
-                "href": ""
-            },
-            {
-                "href": ""
-            },
-            {
-                "href": ""
-            },
-            {
-                "href": ""
-            },
-            {
-                "href": ""
-            },
-            {
-                "href": ""
-            }
         ]
     },
     "nid": [
@@ -50,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 34
+            "value": 109
         }
     ],
     "langcode": [
@@ -66,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-19T08:17:47+00:00",
+            "value": "2019-03-22T07:36:49+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -83,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ]
             }
@@ -100,108 +80,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "77c82fc1-2cc2-415b-b09d-d20215bdd6a1"
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
                     }
                 ],
                 "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_add_paragraphs": [
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_slideshow"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "40e51435-5568-42b8-94ca-aa764b09874d"
-                    }
-                ],
-                "target_revision_id": "29"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_views"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "5d367e1e-d31c-4768-88c5-0e96ae9d87b1"
-                    }
-                ],
-                "target_revision_id": "30"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_our_team_block"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "2a26d06b-b715-4489-8847-dc85aa2b16a5"
-                    }
-                ],
-                "target_revision_id": "31"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_pharmacy_services"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "6dc4a7e8-89d9-4e9b-b9b8-5de9d92066d7"
-                    }
-                ],
-                "target_revision_id": "32"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_imp_info_block"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "7df0d120-3ed9-43fe-8526-21e23dfa225e"
-                    }
-                ],
-                "target_revision_id": "33"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": ""
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_our_products"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "b139f446-c0ff-4efe-aa22-060189c1faae"
-                    }
-                ],
-                "target_revision_id": "34"
             }
         ]
     },
@@ -226,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-19T08:17:47+00:00",
+            "value": "2019-03-22T07:36:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

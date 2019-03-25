@@ -1,0 +1,27 @@
+uuid: 227d4ea1-8c9e-4169-b480-069734e94634
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed_blocks_non_view_.field_contact_us
+    - paragraphs.paragraphs_type.embed_blocks_non_view_
+  module:
+    - block_field
+id: paragraph.embed_blocks_non_view_.default
+targetEntityType: paragraph
+bundle: embed_blocks_non_view_
+mode: default
+content:
+  field_contact_us:
+    weight: 0
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

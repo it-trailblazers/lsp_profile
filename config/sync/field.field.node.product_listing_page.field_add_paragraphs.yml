@@ -1,0 +1,56 @@
+uuid: 9587abfe-b6ab-456f-936f-e18999a3584f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_paragraphs
+    - node.type.product_listing_page
+    - paragraphs.paragraphs_type.embed_nodes
+    - paragraphs.paragraphs_type.embed_our_products
+    - paragraphs.paragraphs_type.embed_views
+  module:
+    - entity_reference_revisions
+id: node.product_listing_page.field_add_paragraphs
+field_name: field_add_paragraphs
+entity_type: node
+bundle: product_listing_page
+label: 'Add Paragraphs'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      embed_nodes: embed_nodes
+      embed_our_products: embed_our_products
+      embed_views: embed_views
+    target_bundles_drag_drop:
+      embed_imp_info_block:
+        weight: 8
+        enabled: false
+      embed_blocks_non_view_:
+        weight: 9
+        enabled: false
+      embed_nodes:
+        enabled: true
+        weight: 9
+      embed_our_products:
+        enabled: true
+        weight: 10
+      embed_our_team_block:
+        weight: 11
+        enabled: false
+      embed_pharmacy_services:
+        weight: 12
+        enabled: false
+      embed_slideshow:
+        weight: 13
+        enabled: false
+      embed_views:
+        enabled: true
+        weight: 14
+field_type: entity_reference_revisions
