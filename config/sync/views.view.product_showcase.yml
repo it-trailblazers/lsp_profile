@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_image
     - field.storage.node.field_primary_title
     - field.storage.node.field_secondary_title
-    - image.style.large
+    - image.style.product_showcase_570_x_323_
     - node.type.product
   module:
     - image
@@ -176,7 +176,7 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: ''
+          element_class: prod-show-title
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
@@ -300,7 +300,7 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: ''
+          element_class: prod-show-image
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
@@ -314,8 +314,8 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
-            image_link: ''
+            image_style: product_showcase_570_x_323_
+            image_link: content
           group_column: ''
           group_columns: {  }
           group_rows: true

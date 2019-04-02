@@ -1,0 +1,15 @@
+uuid: 8e0b2d3c-f530-4e7b-8f26-4be8687ae9ca
+langcode: en
+status: true
+dependencies: {  }
+name: product_showcase_570_x_323_
+label: 'Product Showcase (550 x 323)'
+effects:
+  2cdf1a93-9db7-4bb9-be12-9811e9f96006:
+    uuid: 2cdf1a93-9db7-4bb9-be12-9811e9f96006
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 550
+      height: 323
+      anchor: center-center

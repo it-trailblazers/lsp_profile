@@ -19,13 +19,18 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/products_images\/47895081-diet-nutrition-vitamins-healthy-eating-lifestyle-close-up-of-happy-smiling-woman-taking-pill-with-co_0.jpg",
+                "href": "http:\/\/default\/sites\/default\/files\/products_images\/y90-zevalin.jpg",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
             {
                 "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
@@ -46,7 +51,7 @@
     ],
     "vid": [
         {
-            "value": 93
+            "value": 187
         }
     ],
     "langcode": [
@@ -62,7 +67,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-21T11:11:45+00:00",
+            "value": "2019-03-29T12:21:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -106,7 +111,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/47895081-diet-nutrition-vitamins-healthy-eating-lifestyle-close-up-of-happy-smiling-woman-taking-pill-with-co_0.jpg"
+                        "href": "http:\/\/default\/sites\/default\/files\/products_images\/y90-zevalin.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -114,14 +119,14 @@
                 },
                 "uuid": [
                     {
-                        "value": "7adc3b09-ccde-44b3-bcff-9b7c98e53390"
+                        "value": "a343ae7c-cb29-4a49-ab62-c124d221ee40"
                     }
                 ],
                 "lang": "en",
-                "alt": "ibritumomab (ib ri TYOO mo mab)",
+                "alt": "Y-90 Zevalin",
                 "title": "",
-                "width": "1300",
-                "height": "866"
+                "width": "480",
+                "height": "260"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_prescription": [
@@ -137,6 +142,23 @@
                 "uuid": [
                     {
                         "value": "eaac41f2-3f9d-412c-8499-5b59be4b5ce4"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/products_alphabets"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b9e1ce19-33c7-411d-979e-6beb72f3508d"
                     }
                 ]
             }
@@ -180,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-21T11:11:45+00:00",
+            "value": "2019-03-29T12:21:56+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

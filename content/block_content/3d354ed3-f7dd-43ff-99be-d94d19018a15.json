@@ -1,0 +1,111 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3d354ed3-f7dd-43ff-99be-d94d19018a15"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 34
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_note"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-04-01T07:02:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Bottom Footer Links",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-01T07:02:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"container bottom-links\">\r\n<p><a href=\"sitemap\">Sitemap<\/a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href=\"privacy-policy\">Privacy Policy<\/a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href=\"terms-of-use\">Terms of Use<\/a><\/p>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"container bottom-links\">\n<p><a href=\"sitemap\">Sitemap<\/a> \u00a0 \u00a0 | \u00a0 \u00a0 <a href=\"privacy-policy\">Privacy Policy<\/a> \u00a0 \u00a0 | \u00a0 \u00a0 <a href=\"terms-of-use\">Terms of Use<\/a><\/p>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

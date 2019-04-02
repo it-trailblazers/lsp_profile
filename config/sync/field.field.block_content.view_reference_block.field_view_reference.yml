@@ -1,0 +1,53 @@
+uuid: 362d505b-a3d1-4a5f-a62d-d92ecbca6610
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_reference_block
+    - field.storage.block_content.field_view_reference
+  module:
+    - viewsreference
+id: block_content.view_reference_block.field_view_reference
+field_name: field_view_reference
+entity_type: block_content
+bundle: view_reference_block
+label: 'View Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    default: default
+    block: block
+    page: page
+    attachment: attachment
+    feed: 0
+  preselect_views:
+    banner: 0
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    cta_section_1: 0
+    cta_section_2: 0
+    files: 0
+    frontpage: 0
+    our_team: 0
+    products_cta: 0
+    products_list: 0
+    product_list_cta: 0
+    product_showcase: 0
+    slideshow: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

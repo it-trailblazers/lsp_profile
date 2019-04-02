@@ -3,8 +3,8 @@ name: 'LSP Platform'
 mail: pradeep@ittblazers.com
 slogan: ''
 page:
-  403: ''
-  404: ''
+  403: /node/61
+  404: /node/61
   front: /node/3
 admin_compact_mode: false
 weight_select_max: 100

@@ -12,11 +12,11 @@ dependencies:
     - lsp_layout1
 third_party_settings:
   block_class:
-    classes: row
+    classes: col-md-12
 id: googlemaplocation
 theme: lsp_layout1
-region: content
-weight: 0
+region: content_container
+weight: -11
 provider: null
 plugin: 'block_content:034d37de-4dab-428a-a135-f5d439a01ab1'
 settings:

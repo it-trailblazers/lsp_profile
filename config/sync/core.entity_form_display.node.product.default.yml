@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.product.field_medication_guide
     - field.field.node.product.field_prescription
     - field.field.node.product.field_primary_title
+    - field.field.node.product.field_product_glossary_order
     - field.field.node.product.field_secondary_title
     - field.field.node.product.field_tags
     - image.style.thumbnail
@@ -26,7 +27,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 4
+    weight: 5
     settings:
       rows: 9
       summary_rows: 3
@@ -35,12 +36,12 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 11
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
   field_additional_information:
-    weight: 7
+    weight: 8
     settings:
       rows: 5
       placeholder: ''
@@ -56,7 +57,7 @@ content:
     type: image_image
     region: content
   field_information_for_consumers:
-    weight: 8
+    weight: 9
     settings:
       rows: 5
       placeholder: ''
@@ -64,14 +65,14 @@ content:
     type: text_textarea
     region: content
   field_medication_guide:
-    weight: 6
+    weight: 7
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
   field_prescription:
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
@@ -84,6 +85,12 @@ content:
     third_party_settings: {  }
     type: text_textfield
     region: content
+  field_product_glossary_order:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_secondary_title:
     weight: 2
     settings:
@@ -93,7 +100,7 @@ content:
     type: text_textfield
     region: content
   field_tags:
-    weight: 9
+    weight: 10
     settings:
       match_operator: CONTAINS
       size: 60
@@ -103,7 +110,7 @@ content:
     region: content
   path:
     type: path
-    weight: 14
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -111,21 +118,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 12
+    weight: 13
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 16
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 13
+    weight: 14
     region: content
     third_party_settings: {  }
   title:
@@ -138,7 +145,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 10
+    weight: 11
     settings:
       match_operator: CONTAINS
       size: 60

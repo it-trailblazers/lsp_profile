@@ -12,7 +12,7 @@ dependencies:
 id: locationandaddress
 theme: lsp_layout1
 region: content
-weight: -10
+weight: -14
 provider: null
 plugin: 'block_content:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
 settings:

@@ -1,0 +1,37 @@
+uuid: 6d793e3f-5e92-4513-84fa-1f5c76f80b01
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:view_reference_block:a6bb2a1b-5ff4-433b-9366-c094f2a90305'
+  module:
+    - block_class
+    - block_content
+    - ctools
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: block-product-glossary
+id: productglossary
+theme: lsp_layout1
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:a6bb2a1b-5ff4-433b-9366-c094f2a90305'
+settings:
+  id: 'block_content:a6bb2a1b-5ff4-433b-9366-c094f2a90305'
+  label: 'Product Glossary'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product_listing_page: product_listing_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

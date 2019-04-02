@@ -5,7 +5,7 @@ dependencies:
   config:
     - views.view.banner
   module:
-    - ctools
+    - system
     - user
     - views
   theme:
@@ -13,7 +13,7 @@ dependencies:
 id: views_block__banner_block_1
 theme: lsp_layout1
 region: content
-weight: -11
+weight: -15
 provider: null
 plugin: 'views_block:banner-block_1'
 settings:
@@ -24,16 +24,6 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
-    bundles:
-      basic_page: basic_page
-      pharmacy_finder: pharmacy_finder
-      product: product
-      product_listing_page: product_listing_page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
   user_role:
     id: user_role
     roles:
@@ -42,3 +32,8 @@ visibility:
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: "/contact-us\r\n/pharmacy-finder\r\n/products\r\n/about-us\r\n/user/*\r\n/search/*\r\n/privacy-policy\r\n/terms-of-use\r\n/company-info\r\n/services\r\n/careers\r\n/product/*\r\n/help-faqs\r\n/sitemap\r\n/video-capability\r\n/page-not-found\r\n/products/*"
+    negate: false
+    context_mapping: {  }

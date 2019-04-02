@@ -1,0 +1,8 @@
+uuid: 84dbbd2b-d2a3-45e3-9812-fe103b66bdd7
+langcode: en
+status: true
+dependencies: {  }
+id: site_logo
+label: 'Site Logo'
+revision: 1
+description: 'Allow users to add different site logo for different content type or pages.'

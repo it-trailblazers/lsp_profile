@@ -24,7 +24,7 @@
     ],
     "revision_id": [
         {
-            "value": 8
+            "value": 19
         }
     ],
     "langcode": [
@@ -40,7 +40,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-03-21T14:21:15+00:00",
+            "value": "2019-03-26T12:36:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,9 +69,15 @@
             "lang": "en"
         }
     ],
+    "info": [
+        {
+            "value": "Contact No.",
+            "lang": "en"
+        }
+    ],
     "changed": [
         {
-            "value": "2019-03-21T14:21:15+00:00",
+            "value": "2019-03-26T12:36:39+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -95,9 +101,9 @@
     ],
     "body": [
         {
-            "value": "<div class=\"top-nav-contact-block\">\r\n<p id=\"phone-no\">Call US 234.150.9876<\/p>\r\n\r\n<p id=\"email-id\">info@lifesciencesplatform.com<\/p>\r\n<\/div>\r\n",
+            "value": "<div class=\"top-nav-contact-block\">\r\n<p id=\"phone-no\"><span class=\"numb\">Call US 234.150.9876<\/span> <span class=\"emil\">info@lifesciencesplatform.com<\/span><\/p>\r\n<\/div>\r\n",
             "format": "full_html",
-            "processed": "<div class=\"top-nav-contact-block\">\n<p id=\"phone-no\">Call US 234.150.9876<\/p>\n\n<p id=\"email-id\">info@lifesciencesplatform.com<\/p>\n<\/div>\n",
+            "processed": "<div class=\"top-nav-contact-block\">\n<p id=\"phone-no\"><span class=\"numb\">Call US 234.150.9876<\/span> <span class=\"emil\">info@lifesciencesplatform.com<\/span><\/p>\n<\/div>\n",
             "summary": "",
             "lang": "en"
         }

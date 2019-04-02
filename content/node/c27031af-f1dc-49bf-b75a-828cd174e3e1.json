@@ -134,7 +134,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-19T06:29:55+00:00",
+            "value": "2019-03-28T11:05:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -174,7 +174,7 @@
     ],
     "field_action_link": [
         {
-            "uri": "https:\/\/www.google.com",
+            "uri": "internal:\/about-us",
             "title": "LEARN MORE",
             "options": []
         }

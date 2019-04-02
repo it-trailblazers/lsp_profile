@@ -1,0 +1,69 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/products_alphabets"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/products_alphabets\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "179ba21f-2c6d-4ff4-878f-ee8845dc3902"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "products_alphabets"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "H",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/products_alphabets\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-03-29T12:09:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 module:
   addtoany: 0
+  autologout: 0
   better_normalizers: 0
   block: 0
   block_class: 0
@@ -7,6 +8,7 @@ module:
   block_field: 0
   breakpoint: 0
   captcha: 0
+  checklistapi: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -22,48 +24,67 @@ module:
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  encrypt: 0
   entity_reference: 0
   entity_reference_revisions: 0
   field: 0
+  field_encrypt: 0
   field_ui: 0
   file: 0
   filter: 0
+  gdpr: 0
   hal: 0
   help: 0
   history: 0
   image: 0
   imp_safety_info: 0
   ittb_pharmacy_locator: 0
+  key: 0
   layout_discovery: 0
   link: 0
   menu_ui: 0
+  module_blacklist: 0
   node: 0
   options: 0
   page_cache: 0
+  page_manager: 0
+  panels: 0
   path: 0
   quickedit: 0
   rdf: 0
+  recaptcha: 0
   search: 0
+  seckit: 0
   serialization: 0
+  session_limit: 0
+  shield: 0
   shortcut: 0
   simple_glossary: 0
+  sitemap: 0
   system: 0
   taxonomy: 0
   text: 0
   token: 0
   toolbar: 0
+  total_control: 0
   update: 0
   user: 0
+  username_enumeration_prevention: 0
   video_capability: 0
   views_bootstrap: 0
   views_ui: 0
   viewsreference: 0
+  webform: 0
+  webform_encrypt: 0
+  webform_ui: 0
   ds: 1
+  extlink: 1
   menu_link_content: 1
   pathauto: 1
   views: 10
   paragraphs: 11
   lsp_profile: 1000
+  readonlymode: 9999
 theme:
   stable: 0
   classy: 0

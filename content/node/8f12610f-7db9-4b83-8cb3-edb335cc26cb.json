@@ -134,7 +134,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-22T08:13:27+00:00",
+            "value": "2019-03-28T11:05:26+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -174,7 +174,7 @@
     ],
     "field_action_link": [
         {
-            "uri": "https:\/\/in.yahoo.com",
+            "uri": "internal:\/products",
             "title": "LEARN ABOUT PRODUCTS",
             "options": []
         }

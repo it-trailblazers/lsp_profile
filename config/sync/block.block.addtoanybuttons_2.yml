@@ -1,0 +1,24 @@
+uuid: 2fb91419-0f00-409a-abf2-e99293872e80
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+    - block_class
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: footer-social-links
+id: addtoanybuttons_2
+theme: lsp_layout1
+region: footer
+weight: -13
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'Follow Us'
+  provider: addtoany
+  label_display: visible
+visibility: {  }

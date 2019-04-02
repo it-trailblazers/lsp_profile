@@ -1,0 +1,35 @@
+uuid: 4264de8c-e67c-4f67-ab31-a7d69db21831
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:site_logo:95cf0d68-bd74-4897-85fe-d1eb8308a7ca'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: other-pages-logo
+id: otherpageslogo
+theme: lsp_layout1
+region: navigation_collapsible
+weight: -12
+provider: null
+plugin: 'block_content:95cf0d68-bd74-4897-85fe-d1eb8308a7ca'
+settings:
+  id: 'block_content:95cf0d68-bd74-4897-85fe-d1eb8308a7ca'
+  label: 'Other Pages Logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact-us\r\n/pharmacy-finder\r\n/products\r\n/about-us\r\n/user/*\r\n/search/*\r\n/privacy-policy\r\n/terms-of-use\r\n/company-info\r\n/services\r\n/careers\r\n/product/*\r\n/help-faqs\r\n/sitemap\r\n/video-capability\r\n/page-not-found\r\n/products/*"
+    negate: false
+    context_mapping: {  }

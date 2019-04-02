@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/product\/2019?_format=hal_json"
+            "href": "http:\/\/default\/product\/2019\/phalonix-met-transipient-sitau-onintement?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
@@ -15,6 +15,11 @@
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
             }
         ]
     },
@@ -30,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 40
+            "value": 178
         }
     ],
     "langcode": [
@@ -46,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-19T10:42:34+00:00",
+            "value": "2019-03-29T12:20:41+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -85,11 +90,28 @@
                 ],
                 "lang": "en"
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/products_alphabets"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "81965641-292a-4d0c-b481-4cb8375259b3"
+                    }
+                ]
+            }
         ]
     },
     "status": [
         {
-            "value": true,
+            "value": false,
             "lang": "en"
         }
     ],
@@ -108,7 +130,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-19T10:42:34+00:00",
+            "value": "2019-03-29T12:20:41+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -138,7 +160,7 @@
         }
     ],
     "path": {
-        "alias": "\/product\/2019"
+        "alias": "\/product\/2019\/phalonix-met-transipient-sitau-onintement"
     },
     "field_additional_information": [
         {

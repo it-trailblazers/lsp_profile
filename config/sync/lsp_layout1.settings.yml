@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: themes/custom/lsp_layout1/favicon.ico
-  url: 'http://lspnew.bn/themes/custom/lsp_layout1/favicon.ico'
+  url: 'http://192.168.50.132/prathap/lsp_build/app/sites/default/files/favicon.ico'
   use_default: false
 logo:
   path: sites/default/files/logo.png
@@ -19,12 +19,13 @@ region_wells:
   highlighted: ''
   help: ''
   content: ''
+  content_container: ''
   sidebar_first: ''
   sidebar_second: ''
   footer: ''
   footer_left: ''
-  footer_right: ''
   footer_center: ''
+  footer_right: ''
 features:
   comment_user_picture: true
   comment_user_verification: true

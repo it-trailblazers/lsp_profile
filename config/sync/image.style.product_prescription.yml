@@ -1,0 +1,15 @@
+uuid: b70ef556-aee0-432c-95fa-57c4aedccf8e
+langcode: en
+status: true
+dependencies: {  }
+name: product_prescription
+label: 'Product Prescription (550 x 152)'
+effects:
+  e1e17606-fc43-463d-9485-3285c8a08af4:
+    uuid: e1e17606-fc43-463d-9485-3285c8a08af4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 550
+      height: 152
+      anchor: center-center

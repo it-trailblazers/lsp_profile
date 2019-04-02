@@ -28,6 +28,11 @@
                 "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
             {
                 "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
@@ -46,7 +51,7 @@
     ],
     "vid": [
         {
-            "value": 86
+            "value": 180
         }
     ],
     "langcode": [
@@ -62,7 +67,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-21T10:57:24+00:00",
+            "value": "2019-03-29T12:20:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -141,6 +146,23 @@
                 ]
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/products_alphabets"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0ad612cb-41dc-46b4-99b3-510b4c2a7b1b"
+                    }
+                ]
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
             {
                 "_links": {
@@ -180,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-21T10:57:24+00:00",
+            "value": "2019-03-29T12:20:56+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

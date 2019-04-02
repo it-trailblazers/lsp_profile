@@ -1,0 +1,33 @@
+uuid: 2134af68-3c4a-4f04-beb6-c83682600e1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.view_reference_block
+    - field.field.block_content.view_reference_block.body
+    - field.field.block_content.view_reference_block.field_view_reference
+  module:
+    - text
+    - viewsreference
+id: block_content.view_reference_block.default
+targetEntityType: block_content
+bundle: view_reference_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_view_reference:
+    weight: 1
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

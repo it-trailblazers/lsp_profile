@@ -5,7 +5,12 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
-        }
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
     },
     "id": [
         {
@@ -19,7 +24,7 @@
     ],
     "revision_id": [
         {
-            "value": 3
+            "value": 28
         }
     ],
     "langcode": [
@@ -35,10 +40,29 @@
     ],
     "revision_created": [
         {
-            "value": "2019-03-19T06:10:05+00:00",
+            "value": "2019-03-28T13:18:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ]
+    },
     "status": [
         {
             "value": true,
@@ -53,7 +77,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-19T06:10:05+00:00",
+            "value": "2019-03-28T13:18:40+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -77,9 +101,9 @@
     ],
     "body": [
         {
-            "value": "<p><strong>LIFE SCIENCE PLATFORM<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">Madison Avenue 7, NY, US<\/b><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">contact@lsp.com<\/b><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">608-571-3864<\/b><\/p>\r\n",
+            "value": "<p><strong>LIFE SCIENCE PLATFORM<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">2050 Rt. 27, Suite 203, North Brunswick, NJ, 08902<\/b><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">contact@lsp.com<\/b><\/p>\r\n\r\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">608-571-3864<\/b><\/p>\r\n",
             "format": "full_html",
-            "processed": "<p><strong>LIFE SCIENCE PLATFORM<\/strong><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">Madison Avenue 7, NY, US<\/b><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">contact@lsp.com<\/b><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">608-571-3864<\/b><\/p>\n",
+            "processed": "<p><strong>LIFE SCIENCE PLATFORM<\/strong><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">2050 Rt. 27, Suite 203, North Brunswick, NJ, 08902<\/b><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">contact@lsp.com<\/b><\/p>\n\n<p dir=\"ltr\"><b id=\"docs-internal-guid-0cfd2c78-7fff-e270-743b-0bb5c94ccdd0\">608-571-3864<\/b><\/p>\n",
             "summary": "",
             "lang": "en"
         }

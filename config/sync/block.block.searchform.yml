@@ -1,11 +1,15 @@
 uuid: 11c78ea6-b4ea-4722-9909-b73b0beefcfb
 langcode: en
-status: false
+status: true
 dependencies:
   module:
+    - block_class
     - search
   theme:
     - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: nav-search-block
 id: searchform
 theme: lsp_layout1
 region: navigation

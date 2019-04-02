@@ -1,0 +1,29 @@
+uuid: eb5ad6e3-ccc9-4bac-bb3e-7014d90c9610
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:e8885d90-f3fc-4803-9761-6ec0b07c751b'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: copyright
+id: copyright
+theme: lsp_layout1
+region: footer
+weight: -11
+provider: null
+plugin: 'block_content:e8885d90-f3fc-4803-9761-6ec0b07c751b'
+settings:
+  id: 'block_content:e8885d90-f3fc-4803-9761-6ec0b07c751b'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

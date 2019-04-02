@@ -9,4 +9,4 @@ recipients:
 reply: ''
 weight: 0
 message: 'Thank you for your submission.  Our representatives will get back to you shortly. '
-redirect: /about
+redirect: /contact-us

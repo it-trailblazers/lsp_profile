@@ -5,18 +5,14 @@ dependencies:
   content:
     - 'block_content:footer_note:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
   module:
-    - block_class
     - block_content
     - system
   theme:
     - lsp_layout1
-third_party_settings:
-  block_class:
-    classes: col-md-6
 id: locationandaddress_2
 theme: lsp_layout1
-region: content
-weight: -1
+region: content_container
+weight: -12
 provider: null
 plugin: 'block_content:ba0ae422-f938-4083-97e0-53cf7a1b40e9'
 settings:

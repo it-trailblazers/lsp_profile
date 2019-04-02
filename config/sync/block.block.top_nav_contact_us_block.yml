@@ -1,13 +1,17 @@
 uuid: 564fef61-e192-464a-8ee4-2715ff69086e
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:footer_note:901e7e53-5e11-4534-a4cb-0c716839b918'
   module:
+    - block_class
     - block_content
   theme:
     - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: nav-contact-us-block
 id: top_nav_contact_us_block
 theme: lsp_layout1
 region: navigation

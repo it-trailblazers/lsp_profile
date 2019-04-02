@@ -1,11 +1,15 @@
 uuid: 69067ee0-b596-4c13-acf9-f51db62f427d
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - addtoany
+    - block_class
   theme:
     - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: nav-addtoany-block
 id: addtoanybuttons
 theme: lsp_layout1
 region: navigation

@@ -1,0 +1,34 @@
+uuid: 7e5472fe-f550-4d70-8aef-3b854bc38415
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_prescription
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: block-product-prescription
+id: views_block__product_prescription_block_1
+theme: lsp_layout1
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:product_prescription-block_1'
+settings:
+  id: 'views_block:product_prescription-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products/*\r\n/products"
+    negate: false
+    context_mapping: {  }

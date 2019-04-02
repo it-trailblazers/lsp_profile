@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/product\/2019\/create-product?_format=hal_json"
+            "href": "http:\/\/default\/product\/2019\/augmentin?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/product"
@@ -28,6 +28,11 @@
                 "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
             {
                 "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
@@ -46,7 +51,7 @@
     ],
     "vid": [
         {
-            "value": 59
+            "value": 162
         }
     ],
     "langcode": [
@@ -62,7 +67,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-03-21T10:19:13+00:00",
+            "value": "2019-03-29T12:16:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -141,6 +146,23 @@
                 ]
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_product_glossary_order": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/products_alphabets"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "576f8ab8-c80d-4971-87f5-26b5c22fe580"
+                    }
+                ]
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/product\/field_tags": [
             {
                 "_links": {
@@ -180,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2019-03-21T10:19:13+00:00",
+            "value": "2019-03-29T12:16:28+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -210,7 +232,7 @@
         }
     ],
     "path": {
-        "alias": "\/product\/2019\/create-product"
+        "alias": "\/product\/2019\/augmentin"
     },
     "body": [
         {
@@ -231,9 +253,9 @@
     ],
     "field_secondary_title": [
         {
-            "value": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span>",
+            "value": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span><p class=\"borderf2\"><\/p>",
             "format": "full_html",
-            "processed": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span>",
+            "processed": "Generic Name: <span class=\"blue\">amoxicillin and clavulanate potassium<\/span><p class=\"borderf2\"><\/p>",
             "lang": "en"
         }
     ]

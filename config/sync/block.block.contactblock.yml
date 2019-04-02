@@ -15,8 +15,8 @@ third_party_settings:
     classes: col-md-6
 id: contactblock
 theme: lsp_layout1
-region: content
-weight: -2
+region: content_container
+weight: -13
 provider: null
 plugin: contact_block
 settings:

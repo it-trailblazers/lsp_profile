@@ -1,0 +1,32 @@
+uuid: b476a9a2-b763-421c-862f-71c847633a83
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - video_capability
+  theme:
+    - lsp_layout1
+id: videocapabilityblock
+theme: lsp_layout1
+region: content_container
+weight: 0
+provider: null
+plugin: video_capability_block
+settings:
+  id: video_capability_block
+  label: 'Video Capability block'
+  provider: video_capability
+  label_display: '0'
+  machine_name: videocapabilityblock
+  video_player_id: '5969288781001'
+  video_player_account_id: '1852113022001'
+  video_player_name: HJFyDH5Te
+  video_player_height: '360'
+  video_player_width: '1130'
+visibility:
+  request_path:
+    id: request_path
+    pages: /video-capability
+    negate: false
+    context_mapping: {  }

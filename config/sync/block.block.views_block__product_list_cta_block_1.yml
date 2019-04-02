@@ -6,13 +6,14 @@ dependencies:
     - views.view.product_list_cta
   module:
     - ctools
+    - system
     - views
   theme:
     - lsp_layout1
 id: views_block__product_list_cta_block_1
 theme: lsp_layout1
 region: content
-weight: 2
+weight: -4
 provider: null
 plugin: 'views_block:product_list_cta-block_1'
 settings:
@@ -30,3 +31,8 @@ visibility:
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /pharmacy-finder
+    negate: false
+    context_mapping: {  }

@@ -299,7 +299,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: '<a href="www.google.com">FIND OUR PRODUCTS</a>'
+          content: '<a href="[site:url]products">FIND OUR PRODUCTS</a>'
           plugin_id: text_custom
       empty: {  }
       relationships: {  }

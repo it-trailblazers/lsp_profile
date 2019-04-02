@@ -1,0 +1,111 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/footer_note"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e8885d90-f3fc-4803-9761-6ec0b07c751b"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 18
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_note"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-03-26T12:36:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/footer_note\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3c622ae-4046-4fa6-8c14-007a33fadf8b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Copyright",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-26T12:36:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u00a9 Copyright 2019, Life Sciences Platform All Rights Reserved.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>\u00a9 Copyright 2019, Life Sciences Platform All Rights Reserved.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

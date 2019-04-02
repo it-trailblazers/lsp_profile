@@ -1,0 +1,29 @@
+uuid: 328e2e99-15b3-4f12-bcec-2cba0ba2d9d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_glossary_order
+    - node.type.product
+    - taxonomy.vocabulary.products_alphabets
+id: node.product.field_product_glossary_order
+field_name: field_product_glossary_order
+entity_type: node
+bundle: product
+label: 'Product Glossary Order'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      products_alphabets: products_alphabets
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

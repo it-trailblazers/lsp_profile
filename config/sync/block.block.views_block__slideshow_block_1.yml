@@ -12,7 +12,7 @@ dependencies:
 id: views_block__slideshow_block_1
 theme: lsp_layout1
 region: content
-weight: -9
+weight: -13
 provider: null
 plugin: 'views_block:slideshow-block_1'
 settings:

@@ -1,0 +1,9 @@
+uuid: aeaa0078-64b1-46a2-a2de-3da03448afd7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Products Alphabets'
+vid: products_alphabets
+description: 'Add product alphabet terms'
+hierarchy: 0
+weight: 0

@@ -24,7 +24,7 @@ content:
     region: content
   field_image:
     weight: 3
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -36,4 +36,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  addtoany: true

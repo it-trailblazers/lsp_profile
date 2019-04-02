@@ -1,0 +1,29 @@
+uuid: cecb3c5d-12c5-4ce2-998a-4b1a677e6881
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_note:3d354ed3-f7dd-43ff-99be-d94d19018a15'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - lsp_layout1
+third_party_settings:
+  block_class:
+    classes: footer-bottom-links
+id: bottomfooterlinks
+theme: lsp_layout1
+region: footer
+weight: -12
+provider: null
+plugin: 'block_content:3d354ed3-f7dd-43ff-99be-d94d19018a15'
+settings:
+  id: 'block_content:3d354ed3-f7dd-43ff-99be-d94d19018a15'
+  label: 'Bottom Footer Links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

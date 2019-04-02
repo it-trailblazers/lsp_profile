@@ -1,0 +1,14 @@
+uuid: b387bbb4-cdad-42ca-aa3d-93e0eedd0fde
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: AKE2SNwCpl6Mu_cmbq9ZM2_cXxCikCVj1vcPE9oHWTs
+id: likert_satisfaction
+label: 'Likert: Satisfaction'
+category: Likert
+likert: true
+options: "1: Very Unsatisfied\n2: Unsatisfied\n3: Neutral\n4: Satisfied\n5: Very Satisfied\n"
