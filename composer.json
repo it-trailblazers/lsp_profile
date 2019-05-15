@@ -46,6 +46,9 @@
         "drupal/sitemap": "^1.5",
         "drupal/key": "^1.8",
         "drupal/webform": "^5.2",
-        "drupal/total_control":"^2.0"
+        "drupal/total_control":"^2.0",
+        "drupal/block_field":"^1.0",
+        "drupal/checklistapi":"^1.0",
+        "drupal/contact_block":"^1.0"
     }   
 }
