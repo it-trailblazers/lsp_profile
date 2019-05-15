@@ -32,7 +32,6 @@
         "drupal/swiftmailer": "1.0.0-beta2",
         "drupal/search_api": "1.11.0",
         "drupal/search_api_solr": "1.2.0",
-        "drupal/token": "1.0.0",
         "drupal/bootstrap": "3.17.0",
         "drupal/block_class": "^1.0",
         "drupal/addtoany": "1.11",
